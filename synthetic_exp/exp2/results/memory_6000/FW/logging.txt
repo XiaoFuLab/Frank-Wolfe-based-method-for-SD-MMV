@@ -1,0 +1,88 @@
+[?1h=
+                        < M A T L A B (R) >
+              Copyright 1984-2020 The MathWorks, Inc.
+          R2020b Update 5 (9.9.0.1592791) 64-bit (glnxa64)
+                          February 4, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Setting CVX paths...done.
+Ready to run with these settings: 
+
+DataSetting = 
+
+  struct with fields:
+
+          typeS: 'DIRICHLET'
+          typeA: 'UNIFORM'
+              M: 50
+              N: 40
+              L: 6000
+            SNR: 10
+    numOutliers: 0
+
+
+ExpSetting = 
+
+  struct with fields:
+
+    outputDir: './results/memory_6000/FW/'
+    numTrials: 1
+
+
+MethodSetting = 
+
+  struct with fields:
+
+    func: @(X,N)selectByFW(X,N,'verbose',0,'numOutliers',0)
+    name: 'FW'
+
+----------------------------------------
+#L: 6000 - #N: 40
+||X||_F = 289.596503 
+Duality gap at initilization: 185463.554959 
+Verify your input: 
+lambda = 1.711965 
+iterStart = 1 
+epsilon = 0.000000 
+maxIters = 50 
+innerVerboseInterval = 5000 
+objTol = 0.000000 
+estimatedN = 30 
+verbose = 0 
+Size of X: 50 x 6000 
+numThreads = 8 
+dualityGapThreshold = 0.000010 
+There are 40 cpus. Mex will use 8 threads 
+MaxIter from fwMain: 50 
+Input size: 50 x 6000 
+Start main loop 
+WARNING: Increase capacity of C to: 270000 
+Elapsed time:  52.36 s
+Saved result at ./results/memory_6000/FW//result.mat 
+Succesful rate: 1.000000 
+[?1l>	Command being timed: "matlab -nodisplay -nodesktop -r methodName='FW'; expCodeName='memory_6000'; M=50; N=40; L=6000; SNR=10; numTrials=1; isCalibration=0; expSetup__script; quit"
+	User time (seconds): 230.56
+	System time (seconds): 106.15
+	Percent of CPU this job got: 525%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:04.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 800716
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 879304
+	Voluntary context switches: 666369
+	Involuntary context switches: 7859909
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 15448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

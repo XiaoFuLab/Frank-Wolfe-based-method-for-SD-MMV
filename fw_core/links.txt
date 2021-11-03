@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/8443102/convert-eigen-matrix-to-c-array
+https://itectec.com/matlab/matlab-sending-big-sparse-matrix-to-c-through-mex-matlab-crashing/
+https://research.wmz.ninja/articles/2017/12/using-openmp-in-matlab.html
+https://stackoverflow.com/questions/47699429/matlab-cannot-compile-mex-with-openmp-undefined-reference
+https://forum.kde.org/viewtopic.php?f=74&t=128401
+https://blogs.mathworks.com/loren/2007/03/01/creating-sparse-finite-element-matrices-in-matlab/
+
