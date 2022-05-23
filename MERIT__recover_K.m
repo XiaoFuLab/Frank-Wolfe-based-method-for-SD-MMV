@@ -49,12 +49,12 @@ fprintf('Set K_hat: ')
 display(sort(set_K_hat)')
 
 figure()
-tmp = xline(set_K, 'r--', 'LineWidth', 1.0, 'DisplayName', '$n \in \mathcal{K}$', 'Interpreter',  'latex')
+tmp = xline(set_K, 'r--', 'LineWidth', 1.0, 'DisplayName', '$n \in \mathcal{K}$', 'Interpreter',  'latex');
 hold on
 stem(vecnorm(C_hat, Inf, 2), 'LineWidth', 1.45, 'MarkerSize', 7)
 xlabel('n')
 ylabel('||C(n, :)||_{\infty}')
-title('Recoverying $\mathcal{K}', 'Interpreter', 'Latex')
+title('Recoverying $\mathcal{K}$', 'Interpreter', 'Latex')
 legend(tmp(1), 'Interpreter',  'Latex')
 exportgraphics(gcf, 'figure1.png', 'resolution', 300);
 
