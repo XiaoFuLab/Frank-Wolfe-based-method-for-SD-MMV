@@ -56,7 +56,7 @@ xlabel('n')
 ylabel('||C(n, :)||_{\infty}')
 title('Recoverying $\mathcal{K}$', 'Interpreter', 'Latex')
 legend(tmp(1), 'Interpreter',  'Latex')
-exportgraphics(gcf, 'figure11.png', 'resolution', 300);
+exportgraphics(gcf, 'figure1.png', 'resolution', 300);
 
 
 figure()

@@ -4,7 +4,9 @@ __"Nguyen, T., Fu, X. and Wu, R., 2021. Memory-efficient convex optimization for
 `MERIT__test` shows how to use MERIT function with 2 options of using Matlab or Mex version.
 
 `MERIT__recover_K` shows a simple simulation that how MERIT extracts set K with memory efficiency, as demonstrated in the following 2 figures
+
 ![extracting K](figure1.png "extracting K")
+
 ![sparsity of C](figure2.png "Sparsity of C")
 
 For a reference of producing results in the paper, please run (or take a look at `readme.md`) in 
