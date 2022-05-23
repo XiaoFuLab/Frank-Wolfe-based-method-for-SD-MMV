@@ -2,12 +2,37 @@ function [C, Tracking] = fwCoreMatlab(X, initC, lambda, iterStart, epsilon, maxI
         innerVerboseInterval, objTol, verbose, dualGapThreshold, varargin) 
 % ----------------------------------------------------------------------
 % 
-% Summary of this function goes here
-% Detailed explanation goes here
-
+% FW-based algorithm for solving
+% minimize_{C}   ||X-XC||_F^2 + \lambda*\varPhi_{\mu}(C)
+% subject to     C \geq 0, 1^T C = 1^T
+%
+% This is Matlab-based implementation. This version is mainly for inspecting 
+% method's behaviour. The implementation is also cleaner and easier to read. 
+% It produces an optimal C and various tracking information during updating 
+% process via variable `Tracking`.
+%
+% A faster version is provided in C++ via a mex file without tracking information.
+%
+% Papams:
+% - X: data input
+% - initC: initilization for C
+% - lambda: lambda in the objective function above
+% - iterStart: standard Frank-Wolfe start with iterStart=0, although a warm version can use iterStart>0
+% - epsilon: hyperparameter of the regularization term
+% - maxIters: 
+% - innerVerboseInterval: just logging interval
+% - objTol: a threshold in relative change of objective function 
+% - verbose: logging or not
+% - dualGapThreshold: another criterion for early stopping
+% Output:
+% - C: optimal C
+% - Tracking: a structure with some information collecting during the process.
 
 % Author: Tri Nguyen (nguyetr9@oregonstate.edu)
-
+% Reference: 
+% Nguyen, T., Fu, X. and Wu, R., 2021. Memory-efficient convex optimization for 
+% self-dictionary separable nonnegative matrix factorization: A frank-wolfe approach. 
+% arXiv preprint arXiv:2109.11135. (Submitted to TSP, accepted, 2022.)
 % ----------------------------------------------------------------------
 
     p = inputParser;
@@ -21,24 +46,20 @@ function [C, Tracking] = fwCoreMatlab(X, initC, lambda, iterStart, epsilon, maxI
     Tracking.obj = [];
     Tracking.nnz = [];
     Tracking.lInfNorm = [];
-    fprintf('DEBUG: normX = %f', norm(X, 'fro'));
 
-    L = size(initC, 1);
+    N = size(initC, 1);
     C = initC;
     XT = X';
     relative_change = 1e6;
     current_obj = 1e6;
-    % if iterStart ~= 1 && iterStart ~= 2
-    %     error('iterStart must be either 1 or 2!');
-    % end
 
     for iter=iterStart:maxIters
         CNew = C;
         stepSize = 2.0/double(iter + 1);
         
-        sumCe1 = zeros(L, 1);
-        sumCe2 = zeros(L, 1);
-        for k=1:L
+        sumCe1 = zeros(N, 1);
+        sumCe2 = zeros(N, 1);
+        for k=1:N
             muRowC = C(k, :) ./ epsilon;
             maxMuRowC = max(muRowC);
             muRowC = muRowC - maxMuRowC;
@@ -50,10 +71,10 @@ function [C, Tracking] = fwCoreMatlab(X, initC, lambda, iterStart, epsilon, maxI
         g2Mean = 0;
         dualGap = 0;
 
-        for k=1:L
+        for k=1:N
 
             if verbose && mod(k, innerVerboseInterval) == 0
-                fprintf('Inner iteration progress: %d/%d \n', k, L);
+                fprintf('Inner iteration progress: %d/%d \n', k, N);
             end
             ck = C(:, k);
 
@@ -65,24 +86,22 @@ function [C, Tracking] = fwCoreMatlab(X, initC, lambda, iterStart, epsilon, maxI
 
             g = g1 + lambda*g2;
             [vvv, ind] = min(g);
-            % ============ START DEBUG ============
-            % ============  END DEBUG  ============
             
-            s = zeros(L, 1); s(ind) = 1.0;
+            s = zeros(N, 1); s(ind) = 1.0;
             ckNew = ck + stepSize*(s - ck);
             CNew(:, k) = ckNew;
             dualGap = dualGap + (ck-s)'*g;
         end
         if options.debug
             c_max = max(C, [], 2);
-            second_part = sum(c_max - epsilon*log(L) +  epsilon * log(sum(exp((C - c_max)/epsilon), 2)));
+            second_part = sum(c_max - epsilon*log(N) +  epsilon * log(sum(exp((C - c_max)/epsilon), 2)));
             Tracking.obj(end+1) = norm(X - X*C, 'fro')^2 + lambda*second_part;
         end
         Tracking.nnz(end+1) = nnz(C);
         Tracking.lInfNorm(end+1) = sum(vecnorm(C, Inf, 2));
         C = CNew;
 
-        for k=1:L
+        for k=1:N
             muRowC = C(k, :) ./ epsilon;
             maxMuRowC = max(muRowC);
             muRowC = muRowC - maxMuRowC;
@@ -90,7 +109,7 @@ function [C, Tracking] = fwCoreMatlab(X, initC, lambda, iterStart, epsilon, maxI
             sumCe2(k) = maxMuRowC;
         end
         fittingError = norm(X - X*C, 'fro')^2;
-        regValue = epsilon*sum(log(sumCe1) + sumCe2 - log(L) );
+        regValue = epsilon*sum(log(sumCe1) + sumCe2 - log(N) );
         new_obj = fittingError + lambda*regValue;
         % new_obj = 0;
         relative_change = abs(new_obj - current_obj)/current_obj;
@@ -103,8 +122,8 @@ function [C, Tracking] = fwCoreMatlab(X, initC, lambda, iterStart, epsilon, maxI
             fprintf('\t Fitting error: %e \n', fittingError);
             fprintf('\t Reg value: %e \n', regValue);
             fprintf('\t Current obj: %e \n', current_obj);
-            fprintf('\t g1 mean: %e \n', g1Mean/L);
-            fprintf('\t g2 mean: %e \n', g2Mean/L);
+            fprintf('\t g1 mean: %e \n', g1Mean/N);
+            fprintf('\t g2 mean: %e \n', g2Mean/N);
             fprintf('\t Dual gap: %e \n', dualGap);
             fprintf('\n');
         end

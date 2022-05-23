@@ -1,0 +1,1347 @@
+[?1h=
+                                   < M A T L A B (R) >
+                         Copyright 1984-2021 The MathWorks, Inc.
+                    R2021a Update 5 (9.10.0.1739362) 64-bit (glnxa64)
+                                      August 9, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Setting CVX paths...done.
+Ready to run with these settings: 
+
+DataSetting = 
+
+  struct with fields:
+
+           source: 'DBLP'
+            index: 1
+    isSecondOrder: 0
+    energyReserve: 1
+
+
+ExpSetting = 
+
+  struct with fields:
+
+    outputDir: './results/official/FW/DBLP/1'
+
+
+MethodSetting = 
+
+  struct with fields:
+
+    func: @(X,N)runByFw(X,N,false)
+    name: 'FW'
+
+----------------------------------------
+Before cut-off: 6 
+After cut-off: 6 
+#Nodes: 6 - #communities: 6
+Running Eigendecomposition ...
+Done
+Running FW ...
+X nnz ratio: 1.000000 
+Determining lambda ... 
+Lambda: 1.000000e-06 - ApproxError: -1.000000e+00 
+Duality gap at initilization: 49.718083 
+Verify your input: 
+lambda = 0.000001 
+iterStart = 1 
+epsilon = 0.000010 
+maxIters = 120 
+innerVerboseInterval = 5000 
+objTol = 0.000000 
+estimatedN = 24 
+verbose = 1 
+Size of X: 6 x 6437 
+numThreads = 8 
+dualityGapThreshold = 0.500000 
+There are 40 cpus. Mex will use 8 threads 
+MaxIter from fwMain: 120 
+Input size: 6 x 6437 
+Start main loop 
+------------------   Iter: 1   ------------------
+Stepsize: 1.000000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.000000e+08 
+New obj: 3.992823e+02 
+Fitting error: 3.992823e+02 
+Reg value: -1.143263e-16 
+Relative change: 9.999960e-01 
+C filling up: 0.041667 	 (6437/154488) 
+Duality gap: 4.971808e+01 
+
+------------------   Iter: 2   ------------------
+Stepsize: 0.666667 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.992823e+02 
+New obj: 2.056675e+02 
+Fitting error: 2.056675e+02 
+Reg value: 1.199949e+01 
+Relative change: 4.849072e-01 
+C filling up: 0.083333 	 (12874/154488) 
+Duality gap: 1.018624e+03 
+
+------------------   Iter: 3   ------------------
+Stepsize: 0.500000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.056675e+02 
+New obj: 1.145922e+02 
+Fitting error: 1.145922e+02 
+Reg value: 9.332467e+00 
+Relative change: 4.428279e-01 
+C filling up: 0.124236 	 (19193/154488) 
+Duality gap: 5.118132e+02 
+
+------------------   Iter: 4   ------------------
+Stepsize: 0.400000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.145922e+02 
+New obj: 6.615029e+01 
+Fitting error: 6.615028e+01 
+Reg value: 1.433146e+01 
+Relative change: 4.227329e-01 
+C filling up: 0.164026 	 (25340/154488) 
+Duality gap: 2.761412e+02 
+
+------------------   Iter: 5   ------------------
+Stepsize: 0.333333 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 6.615029e+01 
+New obj: 4.795897e+01 
+Fitting error: 4.795894e+01 
+Reg value: 2.299636e+01 
+Relative change: 2.750000e-01 
+C filling up: 0.195666 	 (30228/154488) 
+Duality gap: 1.608613e+02 
+
+------------------   Iter: 6   ------------------
+Stepsize: 0.285714 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 4.795897e+01 
+New obj: 3.099051e+01 
+Fitting error: 3.099048e+01 
+Reg value: 2.366251e+01 
+Relative change: 3.538120e-01 
+C filling up: 0.230665 	 (35635/154488) 
+Duality gap: 1.219432e+02 
+
+------------------   Iter: 7   ------------------
+Stepsize: 0.250000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.099051e+01 
+New obj: 2.301649e+01 
+Fitting error: 2.301646e+01 
+Reg value: 3.027944e+01 
+Relative change: 2.573051e-01 
+C filling up: 0.265982 	 (41091/154488) 
+Duality gap: 7.884162e+01 
+
+------------------   Iter: 8   ------------------
+Stepsize: 0.222222 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.301649e+01 
+New obj: 1.491039e+01 
+Fitting error: 1.491036e+01 
+Reg value: 3.181405e+01 
+Relative change: 3.521865e-01 
+C filling up: 0.294334 	 (45471/154488) 
+Duality gap: 5.974313e+01 
+
+------------------   Iter: 9   ------------------
+Stepsize: 0.200000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.491039e+01 
+New obj: 1.068827e+01 
+Fitting error: 1.068824e+01 
+Reg value: 3.310273e+01 
+Relative change: 2.831662e-01 
+C filling up: 0.313714 	 (48465/154488) 
+Duality gap: 3.747201e+01 
+
+------------------   Iter: 10   ------------------
+Stepsize: 0.181818 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.068827e+01 
+New obj: 7.944441e+00 
+Fitting error: 7.944407e+00 
+Reg value: 3.401315e+01 
+Relative change: 2.567144e-01 
+C filling up: 0.324672 	 (50158/154488) 
+Duality gap: 2.763491e+01 
+
+------------------   Iter: 11   ------------------
+Stepsize: 0.166667 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 7.944441e+00 
+New obj: 6.339512e+00 
+Fitting error: 6.339477e+00 
+Reg value: 3.535380e+01 
+Relative change: 2.020191e-01 
+C filling up: 0.336181 	 (51936/154488) 
+Duality gap: 2.109939e+01 
+
+------------------   Iter: 12   ------------------
+Stepsize: 0.153846 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 6.339512e+00 
+New obj: 5.244479e+00 
+Fitting error: 5.244443e+00 
+Reg value: 3.608084e+01 
+Relative change: 1.727314e-01 
+C filling up: 0.347483 	 (53682/154488) 
+Duality gap: 1.762978e+01 
+
+------------------   Iter: 13   ------------------
+Stepsize: 0.142857 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 5.244479e+00 
+New obj: 4.378982e+00 
+Fitting error: 4.378945e+00 
+Reg value: 3.684847e+01 
+Relative change: 1.650302e-01 
+C filling up: 0.359678 	 (55566/154488) 
+Duality gap: 1.494155e+01 
+
+------------------   Iter: 14   ------------------
+Stepsize: 0.133333 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 4.378982e+00 
+New obj: 3.594971e+00 
+Fitting error: 3.594933e+00 
+Reg value: 3.835160e+01 
+Relative change: 1.790396e-01 
+C filling up: 0.374741 	 (57893/154488) 
+Duality gap: 1.237543e+01 
+
+------------------   Iter: 15   ------------------
+Stepsize: 0.125000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.594971e+00 
+New obj: 3.012993e+00 
+Fitting error: 3.012955e+00 
+Reg value: 3.839816e+01 
+Relative change: 1.618867e-01 
+C filling up: 0.394154 	 (60892/154488) 
+Duality gap: 1.024099e+01 
+
+------------------   Iter: 16   ------------------
+Stepsize: 0.117647 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.012993e+00 
+New obj: 2.595856e+00 
+Fitting error: 2.595816e+00 
+Reg value: 4.022953e+01 
+Relative change: 1.384460e-01 
+C filling up: 0.414531 	 (64040/154488) 
+Duality gap: 8.800915e+00 
+
+------------------   Iter: 17   ------------------
+Stepsize: 0.111111 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.595856e+00 
+New obj: 2.223357e+00 
+Fitting error: 2.223316e+00 
+Reg value: 4.070082e+01 
+Relative change: 1.434976e-01 
+C filling up: 0.432590 	 (66830/154488) 
+Duality gap: 7.620822e+00 
+
+------------------   Iter: 18   ------------------
+Stepsize: 0.105263 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.223357e+00 
+New obj: 1.918626e+00 
+Fitting error: 1.918584e+00 
+Reg value: 4.171939e+01 
+Relative change: 1.370592e-01 
+C filling up: 0.450728 	 (69632/154488) 
+Duality gap: 6.759018e+00 
+
+------------------   Iter: 19   ------------------
+Stepsize: 0.100000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.918626e+00 
+New obj: 1.688635e+00 
+Fitting error: 1.688593e+00 
+Reg value: 4.236141e+01 
+Relative change: 1.198725e-01 
+C filling up: 0.467344 	 (72199/154488) 
+Duality gap: 6.028971e+00 
+
+------------------   Iter: 20   ------------------
+Stepsize: 0.095238 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.688635e+00 
+New obj: 1.504597e+00 
+Fitting error: 1.504553e+00 
+Reg value: 4.359716e+01 
+Relative change: 1.089862e-01 
+C filling up: 0.482853 	 (74595/154488) 
+Duality gap: 5.448450e+00 
+
+------------------   Iter: 21   ------------------
+Stepsize: 0.090909 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.504597e+00 
+New obj: 1.365913e+00 
+Fitting error: 1.365869e+00 
+Reg value: 4.409594e+01 
+Relative change: 9.217376e-02 
+C filling up: 0.497391 	 (76841/154488) 
+Duality gap: 5.040696e+00 
+
+------------------   Iter: 22   ------------------
+Stepsize: 0.086957 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.365913e+00 
+New obj: 1.252328e+00 
+Fitting error: 1.252283e+00 
+Reg value: 4.505106e+01 
+Relative change: 8.315660e-02 
+C filling up: 0.510998 	 (78943/154488) 
+Duality gap: 4.623223e+00 
+
+------------------   Iter: 23   ------------------
+Stepsize: 0.083333 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.252328e+00 
+New obj: 1.166301e+00 
+Fitting error: 1.166256e+00 
+Reg value: 4.566591e+01 
+Relative change: 6.869331e-02 
+C filling up: 0.524131 	 (80972/154488) 
+Duality gap: 4.307813e+00 
+
+------------------   Iter: 24   ------------------
+Stepsize: 0.080000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.166301e+00 
+New obj: 1.095741e+00 
+Fitting error: 1.095695e+00 
+Reg value: 4.635926e+01 
+Relative change: 6.049934e-02 
+C filling up: 0.536378 	 (82864/154488) 
+Duality gap: 4.123879e+00 
+
+------------------   Iter: 25   ------------------
+Stepsize: 0.076923 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.095741e+00 
+New obj: 1.048941e+00 
+Fitting error: 1.048893e+00 
+Reg value: 4.758909e+01 
+Relative change: 4.271081e-02 
+C filling up: 0.548910 	 (84800/154488) 
+Duality gap: 3.948922e+00 
+
+------------------   Iter: 26   ------------------
+Stepsize: 0.074074 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.048941e+00 
+New obj: 1.016157e+00 
+Fitting error: 1.016108e+00 
+Reg value: 4.853321e+01 
+Relative change: 3.125467e-02 
+C filling up: 0.560555 	 (86599/154488) 
+Duality gap: 3.867007e+00 
+
+------------------   Iter: 27   ------------------
+Stepsize: 0.071429 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.016157e+00 
+New obj: 9.755546e-01 
+Fitting error: 9.755050e-01 
+Reg value: 4.958053e+01 
+Relative change: 3.995651e-02 
+C filling up: 0.572161 	 (88392/154488) 
+Duality gap: 3.756792e+00 
+
+------------------   Iter: 28   ------------------
+Stepsize: 0.068966 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 9.755546e-01 
+New obj: 9.520404e-01 
+Fitting error: 9.519903e-01 
+Reg value: 5.013843e+01 
+Relative change: 2.410344e-02 
+C filling up: 0.583476 	 (90140/154488) 
+Duality gap: 3.607694e+00 
+
+------------------   Iter: 29   ------------------
+Stepsize: 0.066667 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 9.520404e-01 
+New obj: 9.347308e-01 
+Fitting error: 9.346804e-01 
+Reg value: 5.046275e+01 
+Relative change: 1.818155e-02 
+C filling up: 0.594176 	 (91793/154488) 
+Duality gap: 3.560012e+00 
+
+------------------   Iter: 30   ------------------
+Stepsize: 0.064516 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 9.347308e-01 
+New obj: 9.043958e-01 
+Fitting error: 9.043445e-01 
+Reg value: 5.126535e+01 
+Relative change: 3.245326e-02 
+C filling up: 0.604526 	 (93392/154488) 
+Duality gap: 3.537916e+00 
+
+------------------   Iter: 31   ------------------
+Stepsize: 0.062500 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 9.043958e-01 
+New obj: 8.845088e-01 
+Fitting error: 8.844573e-01 
+Reg value: 5.151804e+01 
+Relative change: 2.198919e-02 
+C filling up: 0.614488 	 (94931/154488) 
+Duality gap: 3.444731e+00 
+
+------------------   Iter: 32   ------------------
+Stepsize: 0.060606 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 8.845088e-01 
+New obj: 8.627591e-01 
+Fitting error: 8.627070e-01 
+Reg value: 5.210743e+01 
+Relative change: 2.458962e-02 
+C filling up: 0.624579 	 (96490/154488) 
+Duality gap: 3.362759e+00 
+
+------------------   Iter: 33   ------------------
+Stepsize: 0.058824 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 8.627591e-01 
+New obj: 8.425240e-01 
+Fitting error: 8.424713e-01 
+Reg value: 5.270185e+01 
+Relative change: 2.345398e-02 
+C filling up: 0.634276 	 (97988/154488) 
+Duality gap: 3.306714e+00 
+
+------------------   Iter: 34   ------------------
+Stepsize: 0.057143 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 8.425240e-01 
+New obj: 8.222774e-01 
+Fitting error: 8.222241e-01 
+Reg value: 5.326902e+01 
+Relative change: 2.403085e-02 
+C filling up: 0.643739 	 (99450/154488) 
+Duality gap: 3.165062e+00 
+
+------------------   Iter: 35   ------------------
+Stepsize: 0.055556 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 8.222774e-01 
+New obj: 8.050564e-01 
+Fitting error: 8.050026e-01 
+Reg value: 5.370317e+01 
+Relative change: 2.094312e-02 
+C filling up: 0.653080 	 (100893/154488) 
+Duality gap: 3.080850e+00 
+
+------------------   Iter: 36   ------------------
+Stepsize: 0.054054 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 8.050564e-01 
+New obj: 7.840728e-01 
+Fitting error: 7.840185e-01 
+Reg value: 5.428048e+01 
+Relative change: 2.606467e-02 
+C filling up: 0.662084 	 (102284/154488) 
+Duality gap: 3.002244e+00 
+
+------------------   Iter: 37   ------------------
+Stepsize: 0.052632 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 7.840728e-01 
+New obj: 7.566071e-01 
+Fitting error: 7.565523e-01 
+Reg value: 5.479274e+01 
+Relative change: 3.502962e-02 
+C filling up: 0.670272 	 (103549/154488) 
+Duality gap: 2.955722e+00 
+
+------------------   Iter: 38   ------------------
+Stepsize: 0.051282 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 7.566071e-01 
+New obj: 7.343215e-01 
+Fitting error: 7.342663e-01 
+Reg value: 5.523932e+01 
+Relative change: 2.945454e-02 
+C filling up: 0.678571 	 (104831/154488) 
+Duality gap: 2.818218e+00 
+
+------------------   Iter: 39   ------------------
+Stepsize: 0.050000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 7.343215e-01 
+New obj: 7.061852e-01 
+Fitting error: 7.061296e-01 
+Reg value: 5.562423e+01 
+Relative change: 3.831605e-02 
+C filling up: 0.686726 	 (106091/154488) 
+Duality gap: 2.737281e+00 
+
+------------------   Iter: 40   ------------------
+Stepsize: 0.048780 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 7.061852e-01 
+New obj: 6.811979e-01 
+Fitting error: 6.811420e-01 
+Reg value: 5.582548e+01 
+Relative change: 3.538361e-02 
+C filling up: 0.694429 	 (107281/154488) 
+Duality gap: 2.593276e+00 
+
+------------------   Iter: 41   ------------------
+Stepsize: 0.047619 
+BatchIter: 0 
+BatchIter: 5000 
+WARNING: Increase capacity of C to: 231732 
+Current obj: 6.811979e-01 
+New obj: 6.569239e-01 
+Fitting error: 6.568677e-01 
+Reg value: 5.617087e+01 
+Relative change: 3.563420e-02 
+C filling up: 0.702255 	 (108490/231732) 
+Duality gap: 2.504884e+00 
+
+------------------   Iter: 42   ------------------
+Stepsize: 0.046512 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 6.569239e-01 
+New obj: 6.318264e-01 
+Fitting error: 6.317701e-01 
+Reg value: 5.630704e+01 
+Relative change: 3.820457e-02 
+C filling up: 0.473111 	 (109635/231732) 
+Duality gap: 2.430496e+00 
+
+------------------   Iter: 43   ------------------
+Stepsize: 0.045455 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 6.318264e-01 
+New obj: 6.095259e-01 
+Fitting error: 6.094693e-01 
+Reg value: 5.656988e+01 
+Relative change: 3.529532e-02 
+C filling up: 0.477953 	 (110757/231732) 
+Duality gap: 2.344623e+00 
+
+------------------   Iter: 44   ------------------
+Stepsize: 0.044444 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 6.095259e-01 
+New obj: 5.870205e-01 
+Fitting error: 5.869637e-01 
+Reg value: 5.682759e+01 
+Relative change: 3.692273e-02 
+C filling up: 0.482834 	 (111888/231732) 
+Duality gap: 2.247413e+00 
+
+------------------   Iter: 45   ------------------
+Stepsize: 0.043478 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 5.870205e-01 
+New obj: 5.619962e-01 
+Fitting error: 5.619391e-01 
+Reg value: 5.713943e+01 
+Relative change: 4.262937e-02 
+C filling up: 0.487611 	 (112995/231732) 
+Duality gap: 2.161506e+00 
+
+------------------   Iter: 46   ------------------
+Stepsize: 0.042553 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 5.619962e-01 
+New obj: 5.393726e-01 
+Fitting error: 5.393155e-01 
+Reg value: 5.712193e+01 
+Relative change: 4.025582e-02 
+C filling up: 0.492086 	 (114032/231732) 
+Duality gap: 2.058713e+00 
+
+------------------   Iter: 47   ------------------
+Stepsize: 0.041667 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 5.393726e-01 
+New obj: 5.164831e-01 
+Fitting error: 5.164258e-01 
+Reg value: 5.735280e+01 
+Relative change: 4.243723e-02 
+C filling up: 0.496587 	 (115075/231732) 
+Duality gap: 2.000381e+00 
+
+------------------   Iter: 48   ------------------
+Stepsize: 0.040816 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 5.164831e-01 
+New obj: 4.938409e-01 
+Fitting error: 4.937835e-01 
+Reg value: 5.740461e+01 
+Relative change: 4.383928e-02 
+C filling up: 0.500712 	 (116031/231732) 
+Duality gap: 1.921634e+00 
+
+------------------   Iter: 49   ------------------
+Stepsize: 0.040000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 4.938409e-01 
+New obj: 4.756019e-01 
+Fitting error: 4.755445e-01 
+Reg value: 5.745700e+01 
+Relative change: 3.693281e-02 
+C filling up: 0.504941 	 (117011/231732) 
+Duality gap: 1.871744e+00 
+
+------------------   Iter: 50   ------------------
+Stepsize: 0.039216 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 4.756019e-01 
+New obj: 4.581475e-01 
+Fitting error: 4.580899e-01 
+Reg value: 5.766972e+01 
+Relative change: 3.669963e-02 
+C filling up: 0.509235 	 (118006/231732) 
+Duality gap: 1.790984e+00 
+
+------------------   Iter: 51   ------------------
+Stepsize: 0.038462 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 4.581475e-01 
+New obj: 4.402794e-01 
+Fitting error: 4.402213e-01 
+Reg value: 5.804828e+01 
+Relative change: 3.900086e-02 
+C filling up: 0.513201 	 (118925/231732) 
+Duality gap: 1.753646e+00 
+
+------------------   Iter: 52   ------------------
+Stepsize: 0.037736 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 4.402794e-01 
+New obj: 4.216526e-01 
+Fitting error: 4.215943e-01 
+Reg value: 5.826362e+01 
+Relative change: 4.230680e-02 
+C filling up: 0.517067 	 (119821/231732) 
+Duality gap: 1.662692e+00 
+
+------------------   Iter: 53   ------------------
+Stepsize: 0.037037 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 4.216526e-01 
+New obj: 4.044201e-01 
+Fitting error: 4.043617e-01 
+Reg value: 5.841194e+01 
+Relative change: 4.086881e-02 
+C filling up: 0.520843 	 (120696/231732) 
+Duality gap: 1.602154e+00 
+
+------------------   Iter: 54   ------------------
+Stepsize: 0.036364 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 4.044201e-01 
+New obj: 3.858960e-01 
+Fitting error: 3.858373e-01 
+Reg value: 5.868307e+01 
+Relative change: 4.580414e-02 
+C filling up: 0.524623 	 (121572/231732) 
+Duality gap: 1.556112e+00 
+
+------------------   Iter: 55   ------------------
+Stepsize: 0.035714 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.858960e-01 
+New obj: 3.703754e-01 
+Fitting error: 3.703166e-01 
+Reg value: 5.875378e+01 
+Relative change: 4.021982e-02 
+C filling up: 0.528140 	 (122387/231732) 
+Duality gap: 1.467936e+00 
+
+------------------   Iter: 56   ------------------
+Stepsize: 0.035088 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.703754e-01 
+New obj: 3.581817e-01 
+Fitting error: 3.581230e-01 
+Reg value: 5.864826e+01 
+Relative change: 3.292243e-02 
+C filling up: 0.531679 	 (123207/231732) 
+Duality gap: 1.442224e+00 
+
+------------------   Iter: 57   ------------------
+Stepsize: 0.034483 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.581817e-01 
+New obj: 3.437347e-01 
+Fitting error: 3.436762e-01 
+Reg value: 5.852452e+01 
+Relative change: 4.033419e-02 
+C filling up: 0.535045 	 (123987/231732) 
+Duality gap: 1.418547e+00 
+
+------------------   Iter: 58   ------------------
+Stepsize: 0.033898 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.437347e-01 
+New obj: 3.306046e-01 
+Fitting error: 3.305461e-01 
+Reg value: 5.852628e+01 
+Relative change: 3.819848e-02 
+C filling up: 0.538333 	 (124749/231732) 
+Duality gap: 1.355227e+00 
+
+------------------   Iter: 59   ------------------
+Stepsize: 0.033333 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.306046e-01 
+New obj: 3.171615e-01 
+Fitting error: 3.171029e-01 
+Reg value: 5.857918e+01 
+Relative change: 4.066227e-02 
+C filling up: 0.541725 	 (125535/231732) 
+Duality gap: 1.296297e+00 
+
+------------------   Iter: 60   ------------------
+Stepsize: 0.032787 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.171615e-01 
+New obj: 3.054422e-01 
+Fitting error: 3.053835e-01 
+Reg value: 5.873111e+01 
+Relative change: 3.695041e-02 
+C filling up: 0.545026 	 (126300/231732) 
+Duality gap: 1.271359e+00 
+
+------------------   Iter: 61   ------------------
+Stepsize: 0.032258 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 3.054422e-01 
+New obj: 2.928408e-01 
+Fitting error: 2.927818e-01 
+Reg value: 5.894627e+01 
+Relative change: 4.125633e-02 
+C filling up: 0.548409 	 (127084/231732) 
+Duality gap: 1.225720e+00 
+
+------------------   Iter: 62   ------------------
+Stepsize: 0.031746 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.928408e-01 
+New obj: 2.821546e-01 
+Fitting error: 2.820956e-01 
+Reg value: 5.901615e+01 
+Relative change: 3.649130e-02 
+C filling up: 0.551585 	 (127820/231732) 
+Duality gap: 1.178833e+00 
+
+------------------   Iter: 63   ------------------
+Stepsize: 0.031250 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.821546e-01 
+New obj: 2.723899e-01 
+Fitting error: 2.723307e-01 
+Reg value: 5.923051e+01 
+Relative change: 3.460769e-02 
+C filling up: 0.554628 	 (128525/231732) 
+Duality gap: 1.159251e+00 
+
+------------------   Iter: 64   ------------------
+Stepsize: 0.030769 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.723899e-01 
+New obj: 2.627289e-01 
+Fitting error: 2.626694e-01 
+Reg value: 5.943251e+01 
+Relative change: 3.546769e-02 
+C filling up: 0.557597 	 (129213/231732) 
+Duality gap: 1.125338e+00 
+
+------------------   Iter: 65   ------------------
+Stepsize: 0.030303 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.627289e-01 
+New obj: 2.529918e-01 
+Fitting error: 2.529324e-01 
+Reg value: 5.943107e+01 
+Relative change: 3.706121e-02 
+C filling up: 0.560505 	 (129887/231732) 
+Duality gap: 1.093303e+00 
+
+------------------   Iter: 66   ------------------
+Stepsize: 0.029851 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.529918e-01 
+New obj: 2.432683e-01 
+Fitting error: 2.432090e-01 
+Reg value: 5.934789e+01 
+Relative change: 3.843415e-02 
+C filling up: 0.563474 	 (130575/231732) 
+Duality gap: 1.050386e+00 
+
+------------------   Iter: 67   ------------------
+Stepsize: 0.029412 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.432683e-01 
+New obj: 2.352500e-01 
+Fitting error: 2.351906e-01 
+Reg value: 5.942056e+01 
+Relative change: 3.296076e-02 
+C filling up: 0.566262 	 (131221/231732) 
+Duality gap: 1.009432e+00 
+
+------------------   Iter: 68   ------------------
+Stepsize: 0.028986 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.352500e-01 
+New obj: 2.267333e-01 
+Fitting error: 2.266738e-01 
+Reg value: 5.947653e+01 
+Relative change: 3.620274e-02 
+C filling up: 0.568959 	 (131846/231732) 
+Duality gap: 9.998883e-01 
+
+------------------   Iter: 69   ------------------
+Stepsize: 0.028571 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.267333e-01 
+New obj: 2.193053e-01 
+Fitting error: 2.192457e-01 
+Reg value: 5.963212e+01 
+Relative change: 3.276095e-02 
+C filling up: 0.571686 	 (132478/231732) 
+Duality gap: 9.731426e-01 
+
+------------------   Iter: 70   ------------------
+Stepsize: 0.028169 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.193053e-01 
+New obj: 2.109629e-01 
+Fitting error: 2.109032e-01 
+Reg value: 5.968139e+01 
+Relative change: 3.804007e-02 
+C filling up: 0.574405 	 (133108/231732) 
+Duality gap: 9.408967e-01 
+
+------------------   Iter: 71   ------------------
+Stepsize: 0.027778 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.109629e-01 
+New obj: 2.032334e-01 
+Fitting error: 2.031736e-01 
+Reg value: 5.982780e+01 
+Relative change: 3.663911e-02 
+C filling up: 0.577115 	 (133736/231732) 
+Duality gap: 8.981904e-01 
+
+------------------   Iter: 72   ------------------
+Stepsize: 0.027397 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 2.032334e-01 
+New obj: 1.965200e-01 
+Fitting error: 1.964600e-01 
+Reg value: 5.996223e+01 
+Relative change: 3.303316e-02 
+C filling up: 0.579769 	 (134351/231732) 
+Duality gap: 8.867965e-01 
+
+------------------   Iter: 73   ------------------
+Stepsize: 0.027027 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.965200e-01 
+New obj: 1.904856e-01 
+Fitting error: 1.904256e-01 
+Reg value: 6.002553e+01 
+Relative change: 3.070622e-02 
+C filling up: 0.582315 	 (134941/231732) 
+Duality gap: 8.557409e-01 
+
+------------------   Iter: 74   ------------------
+Stepsize: 0.026667 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.904856e-01 
+New obj: 1.844536e-01 
+Fitting error: 1.843935e-01 
+Reg value: 6.014169e+01 
+Relative change: 3.166617e-02 
+C filling up: 0.584831 	 (135524/231732) 
+Duality gap: 8.433455e-01 
+
+------------------   Iter: 75   ------------------
+Stepsize: 0.026316 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.844536e-01 
+New obj: 1.786779e-01 
+Fitting error: 1.786176e-01 
+Reg value: 6.027218e+01 
+Relative change: 3.131280e-02 
+C filling up: 0.587416 	 (136123/231732) 
+Duality gap: 8.391261e-01 
+
+------------------   Iter: 76   ------------------
+Stepsize: 0.025974 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.786779e-01 
+New obj: 1.737916e-01 
+Fitting error: 1.737312e-01 
+Reg value: 6.040759e+01 
+Relative change: 2.734679e-02 
+C filling up: 0.589694 	 (136651/231732) 
+Duality gap: 8.138179e-01 
+
+------------------   Iter: 77   ------------------
+Stepsize: 0.025641 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.737916e-01 
+New obj: 1.679754e-01 
+Fitting error: 1.679150e-01 
+Reg value: 6.045960e+01 
+Relative change: 3.346648e-02 
+C filling up: 0.592128 	 (137215/231732) 
+Duality gap: 8.151270e-01 
+
+------------------   Iter: 78   ------------------
+Stepsize: 0.025316 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.679754e-01 
+New obj: 1.632338e-01 
+Fitting error: 1.631732e-01 
+Reg value: 6.059176e+01 
+Relative change: 2.822784e-02 
+C filling up: 0.594480 	 (137760/231732) 
+Duality gap: 7.705083e-01 
+
+------------------   Iter: 79   ------------------
+Stepsize: 0.025000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.632338e-01 
+New obj: 1.586988e-01 
+Fitting error: 1.586381e-01 
+Reg value: 6.070334e+01 
+Relative change: 2.778261e-02 
+C filling up: 0.596862 	 (138312/231732) 
+Duality gap: 7.589835e-01 
+
+------------------   Iter: 80   ------------------
+Stepsize: 0.024691 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.586988e-01 
+New obj: 1.543007e-01 
+Fitting error: 1.542398e-01 
+Reg value: 6.086492e+01 
+Relative change: 2.771354e-02 
+C filling up: 0.599184 	 (138850/231732) 
+Duality gap: 7.519449e-01 
+
+------------------   Iter: 81   ------------------
+Stepsize: 0.024390 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.543007e-01 
+New obj: 1.496344e-01 
+Fitting error: 1.495735e-01 
+Reg value: 6.097137e+01 
+Relative change: 3.024116e-02 
+C filling up: 0.601518 	 (139391/231732) 
+Duality gap: 7.304786e-01 
+
+------------------   Iter: 82   ------------------
+Stepsize: 0.024096 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.496344e-01 
+New obj: 1.451632e-01 
+Fitting error: 1.451021e-01 
+Reg value: 6.108454e+01 
+Relative change: 2.988113e-02 
+C filling up: 0.603784 	 (139916/231732) 
+Duality gap: 7.017926e-01 
+
+------------------   Iter: 83   ------------------
+Stepsize: 0.023810 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.451632e-01 
+New obj: 1.420372e-01 
+Fitting error: 1.419760e-01 
+Reg value: 6.126920e+01 
+Relative change: 2.153409e-02 
+C filling up: 0.606045 	 (140440/231732) 
+Duality gap: 6.922063e-01 
+
+------------------   Iter: 84   ------------------
+Stepsize: 0.023529 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.420372e-01 
+New obj: 1.384011e-01 
+Fitting error: 1.383397e-01 
+Reg value: 6.138988e+01 
+Relative change: 2.560002e-02 
+C filling up: 0.608211 	 (140942/231732) 
+Duality gap: 7.032467e-01 
+
+------------------   Iter: 85   ------------------
+Stepsize: 0.023256 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.384011e-01 
+New obj: 1.359860e-01 
+Fitting error: 1.359244e-01 
+Reg value: 6.159969e+01 
+Relative change: 1.745021e-02 
+C filling up: 0.610347 	 (141437/231732) 
+Duality gap: 6.959900e-01 
+
+------------------   Iter: 86   ------------------
+Stepsize: 0.022989 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.359860e-01 
+New obj: 1.324347e-01 
+Fitting error: 1.323729e-01 
+Reg value: 6.176335e+01 
+Relative change: 2.611493e-02 
+C filling up: 0.612406 	 (141914/231732) 
+Duality gap: 6.754774e-01 
+
+------------------   Iter: 87   ------------------
+Stepsize: 0.022727 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.324347e-01 
+New obj: 1.292631e-01 
+Fitting error: 1.292013e-01 
+Reg value: 6.187469e+01 
+Relative change: 2.394802e-02 
+C filling up: 0.614473 	 (142393/231732) 
+Duality gap: 6.625746e-01 
+
+------------------   Iter: 88   ------------------
+Stepsize: 0.022472 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.292631e-01 
+New obj: 1.252180e-01 
+Fitting error: 1.251560e-01 
+Reg value: 6.192672e+01 
+Relative change: 3.129419e-02 
+C filling up: 0.616656 	 (142899/231732) 
+Duality gap: 6.474996e-01 
+
+------------------   Iter: 89   ------------------
+Stepsize: 0.022222 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.252180e-01 
+New obj: 1.212297e-01 
+Fitting error: 1.211676e-01 
+Reg value: 6.206368e+01 
+Relative change: 3.185074e-02 
+C filling up: 0.618892 	 (143417/231732) 
+Duality gap: 6.124713e-01 
+
+------------------   Iter: 90   ------------------
+Stepsize: 0.021978 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.212297e-01 
+New obj: 1.182267e-01 
+Fitting error: 1.181645e-01 
+Reg value: 6.215669e+01 
+Relative change: 2.477109e-02 
+C filling up: 0.621028 	 (143912/231732) 
+Duality gap: 6.115986e-01 
+
+------------------   Iter: 91   ------------------
+Stepsize: 0.021739 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.182267e-01 
+New obj: 1.152588e-01 
+Fitting error: 1.151966e-01 
+Reg value: 6.228490e+01 
+Relative change: 2.510297e-02 
+C filling up: 0.622983 	 (144365/231732) 
+Duality gap: 6.085990e-01 
+
+------------------   Iter: 92   ------------------
+Stepsize: 0.021505 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.152588e-01 
+New obj: 1.130733e-01 
+Fitting error: 1.130109e-01 
+Reg value: 6.241721e+01 
+Relative change: 1.896172e-02 
+C filling up: 0.624881 	 (144805/231732) 
+Duality gap: 5.984958e-01 
+
+------------------   Iter: 93   ------------------
+Stepsize: 0.021277 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.130733e-01 
+New obj: 1.103281e-01 
+Fitting error: 1.102656e-01 
+Reg value: 6.249079e+01 
+Relative change: 2.427872e-02 
+C filling up: 0.626940 	 (145282/231732) 
+Duality gap: 5.922430e-01 
+
+------------------   Iter: 94   ------------------
+Stepsize: 0.021053 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.103281e-01 
+New obj: 1.086264e-01 
+Fitting error: 1.085639e-01 
+Reg value: 6.253345e+01 
+Relative change: 1.542320e-02 
+C filling up: 0.628851 	 (145725/231732) 
+Duality gap: 5.879481e-01 
+
+------------------   Iter: 95   ------------------
+Stepsize: 0.020833 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.086264e-01 
+New obj: 1.065670e-01 
+Fitting error: 1.065043e-01 
+Reg value: 6.270678e+01 
+Relative change: 1.895852e-02 
+C filling up: 0.630690 	 (146151/231732) 
+Duality gap: 5.804626e-01 
+
+------------------   Iter: 96   ------------------
+Stepsize: 0.020619 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.065670e-01 
+New obj: 1.039089e-01 
+Fitting error: 1.038461e-01 
+Reg value: 6.277762e+01 
+Relative change: 2.494373e-02 
+C filling up: 0.632606 	 (146595/231732) 
+Duality gap: 5.675875e-01 
+
+------------------   Iter: 97   ------------------
+Stepsize: 0.020408 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.039089e-01 
+New obj: 1.021714e-01 
+Fitting error: 1.021085e-01 
+Reg value: 6.289832e+01 
+Relative change: 1.672117e-02 
+C filling up: 0.634543 	 (147044/231732) 
+Duality gap: 5.525707e-01 
+
+------------------   Iter: 98   ------------------
+Stepsize: 0.020202 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.021714e-01 
+New obj: 1.002046e-01 
+Fitting error: 1.001416e-01 
+Reg value: 6.299927e+01 
+Relative change: 1.924958e-02 
+C filling up: 0.636524 	 (147503/231732) 
+Duality gap: 5.541622e-01 
+
+------------------   Iter: 99   ------------------
+Stepsize: 0.020000 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 1.002046e-01 
+New obj: 9.796988e-02 
+Fitting error: 9.790681e-02 
+Reg value: 6.307123e+01 
+Relative change: 2.230192e-02 
+C filling up: 0.638397 	 (147937/231732) 
+Duality gap: 5.537331e-01 
+
+------------------   Iter: 100   ------------------
+Stepsize: 0.019802 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 9.796988e-02 
+New obj: 9.607944e-02 
+Fitting error: 9.601631e-02 
+Reg value: 6.313404e+01 
+Relative change: 1.929611e-02 
+C filling up: 0.640127 	 (148338/231732) 
+Duality gap: 5.377301e-01 
+
+------------------   Iter: 101   ------------------
+Stepsize: 0.019608 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 9.607944e-02 
+New obj: 9.446150e-02 
+Fitting error: 9.439828e-02 
+Reg value: 6.322445e+01 
+Relative change: 1.683963e-02 
+C filling up: 0.641862 	 (148740/231732) 
+Duality gap: 5.264265e-01 
+
+------------------   Iter: 102   ------------------
+Stepsize: 0.019417 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 9.446150e-02 
+New obj: 9.259945e-02 
+Fitting error: 9.253616e-02 
+Reg value: 6.329587e+01 
+Relative change: 1.971222e-02 
+C filling up: 0.643675 	 (149160/231732) 
+Duality gap: 5.170089e-01 
+
+------------------   Iter: 103   ------------------
+Stepsize: 0.019231 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 9.259945e-02 
+New obj: 9.049599e-02 
+Fitting error: 9.043260e-02 
+Reg value: 6.338489e+01 
+Relative change: 2.271576e-02 
+C filling up: 0.645539 	 (149592/231732) 
+Duality gap: 5.106755e-01 
+
+------------------   Iter: 104   ------------------
+Stepsize: 0.019048 
+BatchIter: 0 
+BatchIter: 5000 
+Current obj: 9.049599e-02 
+New obj: 8.880745e-02 
+Fitting error: 8.874398e-02 
+Reg value: 6.347233e+01 
+Relative change: 1.865867e-02 
+C filling up: 0.647312 	 (150003/231732) 
+Duality gap: 4.960245e-01 
+
+Done
+hatA: 
+   -0.0010   -0.0000   -0.0054   -0.0331   -0.0000   -0.0954
+    0.2601    0.0156    0.1519    0.0322    0.0124    0.0134
+    0.0323    0.0069    0.0159   -0.2094    0.0024   -0.0899
+    0.0485   -0.1655    0.0330   -0.0043   -0.0168   -0.0045
+    0.2537    0.0079   -0.2035   -0.0093   -0.0093   -0.0265
+    0.0253   -0.0258   -0.1255   -0.0075    0.1776    0.0204
+
+Elapsed time:  75.02 s
+Saved result at ./results/official/FW/DBLP/1/result.mat
+[?1l>	Command being timed: "matlab -nodisplay -nodesktop -r energyReserve=1.; isSecondOrder=0; codeName='official'; methodName='FW'; dataSource='DBLP'; dataIndex=1; isCalibration=0; expSetup__fw; quit"
+	User time (seconds): 149.66
+	System time (seconds): 73.41
+	Percent of CPU this job got: 246%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:30.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1088948
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1254420
+	Voluntary context switches: 566077
+	Involuntary context switches: 3241
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16336
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

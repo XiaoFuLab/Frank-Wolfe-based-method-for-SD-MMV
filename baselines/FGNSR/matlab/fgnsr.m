@@ -131,6 +131,12 @@ ip.addParamValue('debug', 0);
 ip.parse(varargin{:});
 verbose = ip.Results.verbose;
 
+Tracking = struct;
+Tracking.time = [];
+Tracking.rel_approx_error = [];
+Tracking.bytes = [];
+Tracking.nnz = [];
+
 p = ip.Results.p;
 if isempty(p)
     pspread = ip.Results.pspread;
@@ -212,7 +218,7 @@ init_X = 0;
 init_K = init;
 
 [X, ~, mu] = fgnsr_init(Ms, r, p, init_K, init_X);
-
+Tracking.mu = mu;
 % % ============ START DEBUG ============
 % % tri add this adjustment on mu
 % mu = mu/100;
@@ -333,11 +339,6 @@ if strcmp(gradient, 'sparse')
                 MstMs, mu, pmat, w, proj_type);
     updtset(new_row_idx) = true;
 end
-Tracking = struct;
-Tracking.time = [];
-Tracking.rel_approx_error = [];
-Tracking.bytes = [];
-Tracking.nnz = [];
 duration = 0;
 while num_iter < maxiter
     iter_tic = tic;
@@ -471,7 +472,6 @@ fval_hist = fval_hist(1:num_iter+1);
 if ~isempty(diag_hist)
     diag_hist = diag_hist(1:num_iter+1, :);
 end
-
 end % of fgnsr
 
 function print_header

@@ -1,12 +1,7 @@
 /*
  * fwCoreMex.cpp - 
  *
- * The calling syntax is:
- *
- *		C = fwCoreMatlab(X, initC, lambda, iterStart, epsilon, maxIters,...
-                innerVerboseInterval, objTol)
- *
- * This is a MEX file for MATLAB.
+ * This is a MEX file that corresponds functionally to file fwCoreMatlab.
 */
 
 #include "mex.h"
@@ -36,7 +31,7 @@ void computeSumOverColC(Eigen::SparseMatrix<double, Eigen::RowMajor> tC,
 double computePhiC(Eigen::SparseMatrix<double, Eigen::RowMajor> tCT, 
         double epsilon);
 void fwMain(double *X, double *sr, mwIndex *jcs, mwIndex *irs, mwSize m, 
-        mwSize n, size_t bSize, size_t estimatedN, size_t maxIters,
+        mwSize n, size_t bSize, size_t estimatedK, size_t maxIters,
         size_t iterStart, size_t innerVerboseInterval, double lambda, 
         double epsilon, double objTol, bool verbose, mxArray *plhs[], 
         double dualityGapThreshold);
@@ -92,7 +87,7 @@ void mexFunction(int nlhs, mxArray *plhs[],
     size_t innerVerboseInterval = mxGetScalar(prhs[6]);
     double objTol = mxGetScalar(prhs[7]);
     bool verbose = mxGetScalar(prhs[8]);
-    int estimatedN = mxGetScalar(prhs[9]);
+    int estimatedK = mxGetScalar(prhs[9]);
     size_t numThreads = mxGetScalar(prhs[10]);
     double dualityGapThreshold = mxGetScalar(prhs[11]);
 
@@ -104,7 +99,7 @@ void mexFunction(int nlhs, mxArray *plhs[],
         mexPrintf("maxIters = %d \n", maxIters);
         mexPrintf("innerVerboseInterval = %d \n", innerVerboseInterval);
         mexPrintf("objTol = %f \n", objTol);
-        mexPrintf("estimatedN = %d \n", estimatedN);
+        mexPrintf("estimatedK = %d \n", estimatedK);
         mexPrintf("verbose = %d \n", verbose);
         mexPrintf("Size of X: %d x %d \n", nrows, ncols);
         mexPrintf("numThreads = %d \n", numThreads);
@@ -112,15 +107,15 @@ void mexFunction(int nlhs, mxArray *plhs[],
 
 
         /* create the output matrix */
-        if (estimatedN<0) {
-            estimatedN = 100;
+        if (estimatedK<0) {
+            estimatedK = 100;
             mexPrintf("WARNING: using 100 as estimated N to pre-allocate memory\n");
         }
 
         mexPrintf("There are %d cpus. Mex will use %d threads \n", Eigen::nbThreads(), numThreads);
     }
     /* call the computational routine */
-    fwMain(X,sr,jcs,irs,nrows,ncols,numThreads,estimatedN,maxIters,iterStart,
+    fwMain(X,sr,jcs,irs,nrows,ncols,numThreads,estimatedK,maxIters,iterStart,
             innerVerboseInterval,lambda,epsilon,objTol,verbose,plhs,dualityGapThreshold);
 }
 
@@ -146,12 +141,12 @@ void computeSumOverColC(Eigen::SparseMatrix<double, Eigen::RowMajor> tCT,
     size_t colIndex;
     size_t anchor=0;
     size_t i=0;
-    size_t L = tCT.outerSize();
+    size_t N = tCT.outerSize();
     double tmp;
-    Eigen::Matrix<double, 1, Eigen::Dynamic, Eigen::RowMajor> eMaxValueInverse(L);
+    Eigen::Matrix<double, 1, Eigen::Dynamic, Eigen::RowMajor> eMaxValueInverse(N);
 
     // tSumOverColC2 = tCT.colwise().maxCoeff();
-	for (size_t k=0; k<L; ++k)
+	for (size_t k=0; k<N; ++k)
     {
         anchor=0;
 		for (Eigen::SparseMatrix<double, 
@@ -167,7 +162,7 @@ void computeSumOverColC(Eigen::SparseMatrix<double, Eigen::RowMajor> tCT,
     // Compute e^(-maxValue) once for every column, and reuse this value for zero elements
     eMaxValueInverse = (-tSumOverColC2.array()).exp();
 
-	for (size_t k=0; k<L; ++k)
+	for (size_t k=0; k<N; ++k)
     {
         anchor=0;
 		for (Eigen::SparseMatrix<double, 
@@ -183,7 +178,7 @@ void computeSumOverColC(Eigen::SparseMatrix<double, Eigen::RowMajor> tCT,
             anchor = colIndex+1;
 		}
         // Finish remaining element of current columns
-        for (i = anchor; i < L; ++i) {
+        for (i = anchor; i < N; ++i) {
             tSumOverColC1(i) += eMaxValueInverse(i);
         }
     }
@@ -192,7 +187,7 @@ void computeSumOverColC(Eigen::SparseMatrix<double, Eigen::RowMajor> tCT,
 
 /* The computational routine */
 void fwMain(double *X, double *sr, mwIndex *jcs, mwIndex *irs, mwSize m, 
-        mwSize n, size_t bSize, size_t estimatedN, size_t maxIters,
+        mwSize n, size_t bSize, size_t estimatedK, size_t maxIters,
         size_t iterStart, size_t innerVerboseInterval, double lambda, 
         double epsilon, double objTol, bool verbose, mxArray *plhs[], 
         double dualityGapThreshold) {
@@ -212,7 +207,7 @@ void fwMain(double *X, double *sr, mwIndex *jcs, mwIndex *irs, mwSize m,
     Eigen::SparseVector<double,Eigen::RowMajor> tVecTmp(n);
 
     std::vector<T> tripletList;
-    size_t cCapacity = estimatedN*n;
+    size_t cCapacity = estimatedK*n;
     tripletList.reserve(cCapacity);
 
     /* Construct Sparse matrix in Eigen */

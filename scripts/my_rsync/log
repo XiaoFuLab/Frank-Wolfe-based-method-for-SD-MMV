@@ -1,0 +1,1098 @@
+
+====== Sun May 22 01:24:32 PM PDT 2022 =======
+SYNC UP to kruskal.eecs.oregonstate.edu
+sending incremental file list
+created directory /scratch/tri/matlab/sdmmv_demo
+./
+MERIT.m
+          3.97K 100%    0.00kB/s    0:00:00            3.97K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=522/524)
+MERIT__recover_K.m
+          1.45K 100%    1.39MB/s    0:00:00            1.45K 100%    1.39MB/s    0:00:00 (xfr#2, to-chk=521/524)
+MERIT__test.m
+          1.24K 100%    1.18MB/s    0:00:00            1.24K 100%    1.18MB/s    0:00:00 (xfr#3, to-chk=520/524)
+readme.md
+            149 100%  145.51kB/s    0:00:00              149 100%  145.51kB/s    0:00:00 (xfr#4, to-chk=519/524)
+success_rate_origin.m
+          9.70K 100%    9.25MB/s    0:00:00            9.70K 100%    9.25MB/s    0:00:00 (xfr#5, to-chk=518/524)
+baselines/
+baselines/FGNSR/
+baselines/FGNSR/LICENSES
+          2.45K 100%   25.19kB/s    0:00:00            2.45K 100%   25.19kB/s    0:00:00 (xfr#6, to-chk=510/524)
+baselines/FGNSR/README.md
+            952 100%    9.79kB/s    0:00:00              952 100%    9.79kB/s    0:00:00 (xfr#7, to-chk=509/524)
+baselines/FGNSR/setup_fgnsr.m
+            304 100%    3.12kB/s    0:00:00              304 100%    3.12kB/s    0:00:00 (xfr#8, to-chk=508/524)
+baselines/FGNSR/ckernel/
+baselines/FGNSR/ckernel/Makefile
+          2.61K 100%   26.58kB/s    0:00:00            2.61K 100%   26.58kB/s    0:00:00 (xfr#9, to-chk=503/524)
+baselines/FGNSR/ckernel/buildall.sh
+            364 100%    3.70kB/s    0:00:00              364 100%    3.70kB/s    0:00:00 (xfr#10, to-chk=502/524)
+baselines/FGNSR/ckernel/debug_tools.c
+          1.02K 100%   10.36kB/s    0:00:00            1.02K 100%   10.36kB/s    0:00:00 (xfr#11, to-chk=501/524)
+baselines/FGNSR/ckernel/debug_tools.h
+            301 100%    3.03kB/s    0:00:00              301 100%    3.03kB/s    0:00:00 (xfr#12, to-chk=500/524)
+baselines/FGNSR/ckernel/fgnsr_ii.h
+            164 100%    1.65kB/s    0:00:00              164 100%    1.65kB/s    0:00:00 (xfr#13, to-chk=499/524)
+baselines/FGNSR/ckernel/fgnsr_ss.h
+            164 100%    1.65kB/s    0:00:00              164 100%    1.65kB/s    0:00:00 (xfr#14, to-chk=498/524)
+baselines/FGNSR/ckernel/fgnsrdef.h
+            929 100%    9.35kB/s    0:00:00              929 100%    9.35kB/s    0:00:00 (xfr#15, to-chk=497/524)
+baselines/FGNSR/ckernel/libfgwrap.py
+          1.51K 100%   15.21kB/s    0:00:00            1.51K 100%   15.21kB/s    0:00:00 (xfr#16, to-chk=496/524)
+baselines/FGNSR/ckernel/parproj_priv.c
+          6.84K 100%   68.14kB/s    0:00:00            6.84K 100%   68.14kB/s    0:00:00 (xfr#17, to-chk=495/524)
+baselines/FGNSR/ckernel/perfproj.c
+          1.90K 100%   18.93kB/s    0:00:00            1.90K 100%   18.93kB/s    0:00:00 (xfr#18, to-chk=494/524)
+baselines/FGNSR/ckernel/proj.c
+         30.88K 100%  298.57kB/s    0:00:00           30.88K 100%  298.57kB/s    0:00:00 (xfr#19, to-chk=493/524)
+baselines/FGNSR/ckernel/proj.h
+          1.09K 100%   10.59kB/s    0:00:00            1.09K 100%   10.59kB/s    0:00:00 (xfr#20, to-chk=492/524)
+baselines/FGNSR/ckernel/runtests.c
+          1.72K 100%   16.60kB/s    0:00:00            1.72K 100%   16.60kB/s    0:00:00 (xfr#21, to-chk=491/524)
+baselines/FGNSR/ckernel/scratch.c
+            329 100%    3.15kB/s    0:00:00              329 100%    3.15kB/s    0:00:00 (xfr#22, to-chk=490/524)
+baselines/FGNSR/ckernel/sputil.c
+            989 100%    9.47kB/s    0:00:00              989 100%    9.47kB/s    0:00:00 (xfr#23, to-chk=489/524)
+baselines/FGNSR/ckernel/sputil.h
+            245 100%    2.35kB/s    0:00:00              245 100%    2.35kB/s    0:00:00 (xfr#24, to-chk=488/524)
+baselines/FGNSR/ckernel/test_debug_tools.c
+          1.03K 100%    9.83kB/s    0:00:00            1.03K 100%    9.83kB/s    0:00:00 (xfr#25, to-chk=487/524)
+baselines/FGNSR/ckernel/test_libfgwrap.py
+            607 100%    5.81kB/s    0:00:00              607 100%    5.81kB/s    0:00:00 (xfr#26, to-chk=486/524)
+baselines/FGNSR/ckernel/test_proj.c
+         16.53K 100%  156.75kB/s    0:00:00           16.53K 100%  156.75kB/s    0:00:00 (xfr#27, to-chk=485/524)
+baselines/FGNSR/ckernel/test_sputil.c
+          2.01K 100%   18.84kB/s    0:00:00            2.01K 100%   18.84kB/s    0:00:00 (xfr#28, to-chk=484/524)
+baselines/FGNSR/ckernel/test_testing_tools.c
+          5.31K 100%   49.82kB/s    0:00:00            5.31K 100%   49.82kB/s    0:00:00 (xfr#29, to-chk=483/524)
+baselines/FGNSR/ckernel/test_util.c
+          2.21K 100%   20.71kB/s    0:00:00            2.21K 100%   20.71kB/s    0:00:00 (xfr#30, to-chk=482/524)
+baselines/FGNSR/ckernel/testing_tools.c
+          4.69K 100%   43.63kB/s    0:00:00            4.69K 100%   43.63kB/s    0:00:00 (xfr#31, to-chk=481/524)
+baselines/FGNSR/ckernel/testing_tools.h
+          1.20K 100%   11.15kB/s    0:00:00            1.20K 100%   11.15kB/s    0:00:00 (xfr#32, to-chk=480/524)
+baselines/FGNSR/ckernel/util.c
+          6.91K 100%   63.64kB/s    0:00:00            6.91K 100%   63.64kB/s    0:00:00 (xfr#33, to-chk=479/524)
+baselines/FGNSR/ckernel/util.h
+          1.03K 100%    9.48kB/s    0:00:00            1.03K 100%    9.48kB/s    0:00:00 (xfr#34, to-chk=478/524)
+baselines/FGNSR/ckernel/vg_supp
+          1.43K 100%   13.15kB/s    0:00:00            1.43K 100%   13.15kB/s    0:00:00 (xfr#35, to-chk=477/524)
+baselines/FGNSR/ckernel/make/
+baselines/FGNSR/ckernel/make/make.Darwin.x86_64.clang.seq.dbg
+            171 100%    1.58kB/s    0:00:00              171 100%    1.58kB/s    0:00:00 (xfr#36, to-chk=475/524)
+baselines/FGNSR/ckernel/make/make.Darwin.x86_64.clang.seq.opt
+            168 100%    1.53kB/s    0:00:00              168 100%    1.53kB/s    0:00:00 (xfr#37, to-chk=474/524)
+baselines/FGNSR/ckernel/make/make.Darwin.x86_64.gnu.par.cov
+            261 100%    2.38kB/s    0:00:00              261 100%    2.38kB/s    0:00:00 (xfr#38, to-chk=473/524)
+baselines/FGNSR/ckernel/make/make.Darwin.x86_64.gnu.par.dbg
+            176 100%    1.61kB/s    0:00:00              176 100%    1.61kB/s    0:00:00 (xfr#39, to-chk=472/524)
+baselines/FGNSR/ckernel/make/make.Darwin.x86_64.gnu.par.opt
+            192 100%    1.75kB/s    0:00:00              192 100%    1.75kB/s    0:00:00 (xfr#40, to-chk=471/524)
+baselines/FGNSR/ckernel/make/make.Darwin.x86_64.gnu.seq.cov
+            243 100%    2.22kB/s    0:00:00              243 100%    2.22kB/s    0:00:00 (xfr#41, to-chk=470/524)
+baselines/FGNSR/ckernel/make/make.Darwin.x86_64.gnu.seq.dbg
+            181 100%    1.65kB/s    0:00:00              181 100%    1.65kB/s    0:00:00 (xfr#42, to-chk=469/524)
+baselines/FGNSR/ckernel/make/make.Darwin.x86_64.gnu.seq.opt
+            195 100%    1.78kB/s    0:00:00              195 100%    1.78kB/s    0:00:00 (xfr#43, to-chk=468/524)
+baselines/FGNSR/ckernel/make/make.Darwin.x86_64.gnu.seq.prf
+            182 100%    1.66kB/s    0:00:00              182 100%    1.66kB/s    0:00:00 (xfr#44, to-chk=467/524)
+baselines/FGNSR/ckernel/make/make.Linux.x86_64.gnu.par.cov
+            211 100%    1.93kB/s    0:00:00              211 100%    1.93kB/s    0:00:00 (xfr#45, to-chk=466/524)
+baselines/FGNSR/ckernel/make/make.Linux.x86_64.gnu.par.dbg
+            180 100%    1.64kB/s    0:00:00              180 100%    1.64kB/s    0:00:00 (xfr#46, to-chk=465/524)
+baselines/FGNSR/ckernel/make/make.Linux.x86_64.gnu.par.opt
+            171 100%    1.55kB/s    0:00:00              171 100%    1.55kB/s    0:00:00 (xfr#47, to-chk=464/524)
+baselines/FGNSR/ckernel/make/make.Linux.x86_64.gnu.seq.cov
+            193 100%    1.75kB/s    0:00:00              193 100%    1.75kB/s    0:00:00 (xfr#48, to-chk=463/524)
+baselines/FGNSR/ckernel/make/make.Linux.x86_64.gnu.seq.dbg
+            160 100%    1.45kB/s    0:00:00              160 100%    1.45kB/s    0:00:00 (xfr#49, to-chk=462/524)
+baselines/FGNSR/ckernel/make/make.Linux.x86_64.gnu.seq.opt
+            153 100%    1.38kB/s    0:00:00              153 100%    1.38kB/s    0:00:00 (xfr#50, to-chk=461/524)
+baselines/FGNSR/ckernel/make/make.Linux.x86_64.intel.par.dbg
+            191 100%    1.73kB/s    0:00:00              191 100%    1.73kB/s    0:00:00 (xfr#51, to-chk=460/524)
+baselines/FGNSR/ckernel/make/make.Linux.x86_64.intel.seq.dbg
+            174 100%    1.57kB/s    0:00:00              174 100%    1.57kB/s    0:00:00 (xfr#52, to-chk=459/524)
+baselines/FGNSR/devtools/
+baselines/FGNSR/devtools/make_release.pl
+          2.52K 100%   22.80kB/s    0:00:00            2.52K 100%   22.80kB/s    0:00:00 (xfr#53, to-chk=458/524)
+baselines/FGNSR/devtools/cutest-1.5/
+baselines/FGNSR/devtools/cutest-1.5/AllTests.c
+            427 100%    3.86kB/s    0:00:00              427 100%    3.86kB/s    0:00:00 (xfr#54, to-chk=456/524)
+baselines/FGNSR/devtools/cutest-1.5/CuTest.c
+          8.09K 100%   72.46kB/s    0:00:00            8.09K 100%   72.46kB/s    0:00:00 (xfr#55, to-chk=455/524)
+baselines/FGNSR/devtools/cutest-1.5/CuTest.h
+          4.10K 100%   36.71kB/s    0:00:00            4.10K 100%   36.71kB/s    0:00:00 (xfr#56, to-chk=454/524)
+baselines/FGNSR/devtools/cutest-1.5/CuTestTest.c
+         18.24K 100%  160.48kB/s    0:00:00           18.24K 100%  160.48kB/s    0:00:00 (xfr#57, to-chk=453/524)
+baselines/FGNSR/devtools/cutest-1.5/README.txt
+          6.85K 100%   60.24kB/s    0:00:00            6.85K 100%   60.24kB/s    0:00:00 (xfr#58, to-chk=452/524)
+baselines/FGNSR/devtools/cutest-1.5/index.html
+          5.47K 100%   48.16kB/s    0:00:00            5.47K 100%   48.16kB/s    0:00:00 (xfr#59, to-chk=451/524)
+baselines/FGNSR/devtools/cutest-1.5/license.txt
+          1.43K 100%   12.59kB/s    0:00:00            1.43K 100%   12.59kB/s    0:00:00 (xfr#60, to-chk=450/524)
+baselines/FGNSR/devtools/cutest-1.5/make-tests.sh
+            993 100%    8.74kB/s    0:00:00              993 100%    8.74kB/s    0:00:00 (xfr#61, to-chk=449/524)
+baselines/FGNSR/devtools/cutest-1.5/style.css
+            307 100%    2.70kB/s    0:00:00              307 100%    2.70kB/s    0:00:00 (xfr#62, to-chk=448/524)
+baselines/FGNSR/dist/
+baselines/FGNSR/dist/CHANGES.dist
+            104 100%    0.91kB/s    0:00:00              104 100%    0.91kB/s    0:00:00 (xfr#63, to-chk=447/524)
+baselines/FGNSR/dist/LICENSES.dist
+          1.55K 100%   13.62kB/s    0:00:00            1.55K 100%   13.62kB/s    0:00:00 (xfr#64, to-chk=446/524)
+baselines/FGNSR/matlab/
+baselines/FGNSR/matlab/example_midpoints.m
+            919 100%    8.09kB/s    0:00:00              919 100%    8.09kB/s    0:00:00 (xfr#65, to-chk=445/524)
+baselines/FGNSR/matlab/fgnsr.m
+         18.80K 100%  163.89kB/s    0:00:00           18.80K 100%  163.89kB/s    0:00:00 (xfr#66, to-chk=444/524)
+baselines/FGNSR/matlab/fgnsr100.m
+         18.78K 100%  163.73kB/s    0:00:00           18.78K 100%  163.73kB/s    0:00:00 (xfr#67, to-chk=443/524)
+baselines/FGNSR/matlab/fgnsr__test.m
+            901 100%    7.86kB/s    0:00:00              901 100%    7.86kB/s    0:00:00 (xfr#68, to-chk=442/524)
+baselines/FGNSR/matlab/fgnsr__test_intense.m
+          1.22K 100%   10.58kB/s    0:00:00            1.22K 100%   10.58kB/s    0:00:00 (xfr#69, to-chk=441/524)
+baselines/FGNSR/matlab/parproj.m
+            272 100%    2.35kB/s    0:00:00              272 100%    2.35kB/s    0:00:00 (xfr#70, to-chk=440/524)
+baselines/FGNSR/matlab/proj_omega.m
+          6.70K 100%   57.89kB/s    0:00:00            6.70K 100%   57.89kB/s    0:00:00 (xfr#71, to-chk=439/524)
+baselines/FGNSR/matlab/private/
+baselines/FGNSR/matlab/private/FastSepNMF.m
+          3.35K 100%   28.92kB/s    0:00:00            3.35K 100%   28.92kB/s    0:00:00 (xfr#72, to-chk=436/524)
+baselines/FGNSR/matlab/private/fgnsr_init.m
+          2.21K 100%   19.10kB/s    0:00:00            2.21K 100%   19.10kB/s    0:00:00 (xfr#73, to-chk=435/524)
+baselines/FGNSR/matlab/private/nnlsHALSupdt.m
+          2.17K 100%   18.75kB/s    0:00:00            2.17K 100%   18.75kB/s    0:00:00 (xfr#74, to-chk=434/524)
+baselines/FGNSR/matlab/test/
+baselines/FGNSR/matlab/test/test_fgnsr.m
+          1.08K 100%    9.36kB/s    0:00:00            1.08K 100%    9.36kB/s    0:00:00 (xfr#75, to-chk=433/524)
+baselines/FGNSR/matlab/test/test_proj_omega.m
+          3.47K 100%   29.99kB/s    0:00:00            3.47K 100%   29.99kB/s    0:00:00 (xfr#76, to-chk=432/524)
+baselines/PrecondSPA/
+baselines/PrecondSPA/Experiment_2by3_illcond.m
+          2.86K 100%   24.73kB/s    0:00:00            2.86K 100%   24.73kB/s    0:00:00 (xfr#77, to-chk=431/524)
+baselines/PrecondSPA/Experiment_Middle_Points.m
+          3.20K 100%   27.40kB/s    0:00:00            3.20K 100%   27.40kB/s    0:00:00 (xfr#78, to-chk=430/524)
+baselines/PrecondSPA/FastConicalHull.m
+          2.10K 100%   17.96kB/s    0:00:00            2.10K 100%   17.96kB/s    0:00:00 (xfr#79, to-chk=429/524)
+baselines/PrecondSPA/FastSepNMF.m
+          3.38K 100%   28.93kB/s    0:00:00            3.38K 100%   28.93kB/s    0:00:00 (xfr#80, to-chk=428/524)
+baselines/PrecondSPA/PrecSPA.m
+          3.17K 100%   27.17kB/s    0:00:00            3.17K 100%   27.17kB/s    0:00:00 (xfr#81, to-chk=427/524)
+baselines/PrecondSPA/ReadMe.txt
+            557 100%    4.77kB/s    0:00:00              557 100%    4.77kB/s    0:00:00 (xfr#82, to-chk=426/524)
+baselines/PrecondSPA/SPAselect.m
+            906 100%    7.76kB/s    0:00:00              906 100%    7.76kB/s    0:00:00 (xfr#83, to-chk=425/524)
+baselines/PrecondSPA/VCA.m
+          6.85K 100%   58.70kB/s    0:00:00            6.85K 100%   58.70kB/s    0:00:00 (xfr#84, to-chk=424/524)
+baselines/PrecondSPA/lindimred.m
+          1.66K 100%   14.25kB/s    0:00:00            1.66K 100%   14.25kB/s    0:00:00 (xfr#85, to-chk=423/524)
+baselines/PrecondSPA/minvolell.m
+          2.92K 100%   25.00kB/s    0:00:00            2.92K 100%   25.00kB/s    0:00:00 (xfr#86, to-chk=422/524)
+baselines/PrecondSPA/nchoose2.m
+            321 100%    2.75kB/s    0:00:00              321 100%    2.75kB/s    0:00:00 (xfr#87, to-chk=421/524)
+baselines/PrecondSPA/nnlsHALSupdt.m
+          2.14K 100%   18.36kB/s    0:00:00            2.14K 100%   18.36kB/s    0:00:00 (xfr#88, to-chk=420/524)
+baselines/PrecondSPA/scriptfig.m
+            520 100%    4.45kB/s    0:00:00              520 100%    4.45kB/s    0:00:00 (xfr#89, to-chk=419/524)
+baselines/PrecondSPA/scriptfiglog.m
+            553 100%    4.74kB/s    0:00:00              553 100%    4.74kB/s    0:00:00 (xfr#90, to-chk=418/524)
+fw_core/
+fw_core/build.sh
+            189 100%    1.60kB/s    0:00:00              189 100%    1.60kB/s    0:00:00 (xfr#91, to-chk=417/524)
+fw_core/fwCoreMatlab.m
+          4.82K 100%   40.94kB/s    0:00:00            4.82K 100%   40.94kB/s    0:00:00 (xfr#92, to-chk=416/524)
+fw_core/fwCoreMex.cpp
+         14.65K 100%  124.41kB/s    0:00:00           14.65K 100%  124.41kB/s    0:00:00 (xfr#93, to-chk=415/524)
+fw_core/readme.md
+            294 100%    2.50kB/s    0:00:00              294 100%    2.50kB/s    0:00:00 (xfr#94, to-chk=414/524)
+fw_core/useful_resources.txt
+            492 100%    4.18kB/s    0:00:00              492 100%    4.18kB/s    0:00:00 (xfr#95, to-chk=413/524)
+fw_core/Eigen/
+fw_core/Eigen/Cholesky
+          1.16K 100%    9.86kB/s    0:00:00            1.16K 100%    9.86kB/s    0:00:00 (xfr#96, to-chk=411/524)
+fw_core/Eigen/CholmodSupport
+          1.90K 100%   16.13kB/s    0:00:00            1.90K 100%   16.13kB/s    0:00:00 (xfr#97, to-chk=410/524)
+fw_core/Eigen/Core
+         12.80K 100%  108.69kB/s    0:00:00           12.80K 100%  108.69kB/s    0:00:00 (xfr#98, to-chk=409/524)
+fw_core/Eigen/Dense
+            122 100%    1.04kB/s    0:00:00              122 100%    1.04kB/s    0:00:00 (xfr#99, to-chk=408/524)
+fw_core/Eigen/Eigen
+             35 100%    0.30kB/s    0:00:00               35 100%    0.29kB/s    0:00:00 (xfr#100, to-chk=407/524)
+fw_core/Eigen/Eigenvalues
+          1.78K 100%   14.96kB/s    0:00:00            1.78K 100%   14.96kB/s    0:00:00 (xfr#101, to-chk=406/524)
+fw_core/Eigen/Geometry
+          1.94K 100%   16.33kB/s    0:00:00            1.94K 100%   16.33kB/s    0:00:00 (xfr#102, to-chk=405/524)
+fw_core/Eigen/Householder
+            829 100%    6.98kB/s    0:00:00              829 100%    6.98kB/s    0:00:00 (xfr#103, to-chk=404/524)
+fw_core/Eigen/IterativeLinearSolvers
+          2.08K 100%   17.54kB/s    0:00:00            2.08K 100%   17.54kB/s    0:00:00 (xfr#104, to-chk=403/524)
+fw_core/Eigen/Jacobi
+            894 100%    7.53kB/s    0:00:00              894 100%    7.53kB/s    0:00:00 (xfr#105, to-chk=402/524)
+fw_core/Eigen/KLUSupport
+          1.39K 100%   11.69kB/s    0:00:00            1.39K 100%   11.69kB/s    0:00:00 (xfr#106, to-chk=401/524)
+fw_core/Eigen/LU
+          1.42K 100%   11.98kB/s    0:00:00            1.42K 100%   11.98kB/s    0:00:00 (xfr#107, to-chk=400/524)
+fw_core/Eigen/MetisSupport
+            991 100%    8.34kB/s    0:00:00              991 100%    8.34kB/s    0:00:00 (xfr#108, to-chk=399/524)
+fw_core/Eigen/OrderingMethods
+          2.45K 100%   20.63kB/s    0:00:00            2.45K 100%   20.63kB/s    0:00:00 (xfr#109, to-chk=398/524)
+fw_core/Eigen/PaStiXSupport
+          1.75K 100%   14.74kB/s    0:00:00            1.75K 100%   14.74kB/s    0:00:00 (xfr#110, to-chk=397/524)
+fw_core/Eigen/PardisoSupport
+          1.12K 100%    9.40kB/s    0:00:00            1.12K 100%    9.40kB/s    0:00:00 (xfr#111, to-chk=396/524)
+fw_core/Eigen/QR
+          1.27K 100%   10.71kB/s    0:00:00            1.27K 100%   10.71kB/s    0:00:00 (xfr#112, to-chk=395/524)
+fw_core/Eigen/QtAlignedMalloc
+            900 100%    7.58kB/s    0:00:00              900 100%    7.58kB/s    0:00:00 (xfr#113, to-chk=394/524)
+fw_core/Eigen/SPQRSupport
+          1.16K 100%    9.78kB/s    0:00:00            1.16K 100%    9.78kB/s    0:00:00 (xfr#114, to-chk=393/524)
+fw_core/Eigen/SVD
+          1.58K 100%   13.34kB/s    0:00:00            1.58K 100%   13.34kB/s    0:00:00 (xfr#115, to-chk=392/524)
+fw_core/Eigen/Sparse
+            888 100%    7.41kB/s    0:00:00              888 100%    7.41kB/s    0:00:00 (xfr#116, to-chk=391/524)
+fw_core/Eigen/SparseCholesky
+          1.24K 100%   10.31kB/s    0:00:00            1.24K 100%   10.31kB/s    0:00:00 (xfr#117, to-chk=390/524)
+fw_core/Eigen/SparseCore
+          2.24K 100%   18.70kB/s    0:00:00            2.24K 100%   18.70kB/s    0:00:00 (xfr#118, to-chk=389/524)
+fw_core/Eigen/SparseLU
+          1.81K 100%   15.14kB/s    0:00:00            1.81K 100%   15.14kB/s    0:00:00 (xfr#119, to-chk=388/524)
+fw_core/Eigen/SparseQR
+          1.20K 100%    9.97kB/s    0:00:00            1.20K 100%    9.97kB/s    0:00:00 (xfr#120, to-chk=387/524)
+fw_core/Eigen/StdDeque
+            797 100%    6.65kB/s    0:00:00              797 100%    6.65kB/s    0:00:00 (xfr#121, to-chk=386/524)
+fw_core/Eigen/StdList
+            726 100%    6.06kB/s    0:00:00              726 100%    6.06kB/s    0:00:00 (xfr#122, to-chk=385/524)
+fw_core/Eigen/StdVector
+            803 100%    6.70kB/s    0:00:00              803 100%    6.70kB/s    0:00:00 (xfr#123, to-chk=384/524)
+fw_core/Eigen/SuperLUSupport
+          2.24K 100%   18.72kB/s    0:00:00            2.24K 100%   18.72kB/s    0:00:00 (xfr#124, to-chk=383/524)
+fw_core/Eigen/UmfPackSupport
+          1.38K 100%   11.54kB/s    0:00:00            1.38K 100%   11.54kB/s    0:00:00 (xfr#125, to-chk=382/524)
+fw_core/Eigen/src/
+fw_core/Eigen/src/Cholesky/
+fw_core/Eigen/src/Cholesky/LDLT.h
+         24.93K 100%  206.35kB/s    0:00:00           24.93K 100%  206.35kB/s    0:00:00 (xfr#126, to-chk=354/524)
+fw_core/Eigen/src/Cholesky/LLT.h
+         18.76K 100%  155.26kB/s    0:00:00           18.76K 100%  155.26kB/s    0:00:00 (xfr#127, to-chk=353/524)
+fw_core/Eigen/src/Cholesky/LLT_LAPACKE.h
+          3.97K 100%   32.89kB/s    0:00:00            3.97K 100%   32.89kB/s    0:00:00 (xfr#128, to-chk=352/524)
+fw_core/Eigen/src/CholmodSupport/
+fw_core/Eigen/src/CholmodSupport/CholmodSupport.h
+         25.44K 100%  208.78kB/s    0:00:00           25.44K 100%  208.78kB/s    0:00:00 (xfr#129, to-chk=351/524)
+fw_core/Eigen/src/Core/
+fw_core/Eigen/src/Core/ArithmeticSequence.h
+         19.21K 100%  157.68kB/s    0:00:00           19.21K 100%  157.68kB/s    0:00:00 (xfr#130, to-chk=350/524)
+fw_core/Eigen/src/Core/Array.h
+         16.78K 100%  136.57kB/s    0:00:00           16.78K 100%  136.57kB/s    0:00:00 (xfr#131, to-chk=349/524)
+fw_core/Eigen/src/Core/ArrayBase.h
+          8.22K 100%   66.87kB/s    0:00:00            8.22K 100%   66.87kB/s    0:00:00 (xfr#132, to-chk=348/524)
+fw_core/Eigen/src/Core/ArrayWrapper.h
+          7.02K 100%   57.11kB/s    0:00:00            7.02K 100%   57.11kB/s    0:00:00 (xfr#133, to-chk=347/524)
+fw_core/Eigen/src/Core/Assign.h
+          2.74K 100%   22.28kB/s    0:00:00            2.74K 100%   22.28kB/s    0:00:00 (xfr#134, to-chk=346/524)
+fw_core/Eigen/src/Core/AssignEvaluator.h
+         32.77K  79%  264.46kB/s    0:00:00           41.13K 100%  331.94kB/s    0:00:00 (xfr#135, to-chk=345/524)
+fw_core/Eigen/src/Core/Assign_MKL.h
+         12.49K 100%  100.79kB/s    0:00:00           12.49K 100%  100.79kB/s    0:00:00 (xfr#136, to-chk=344/524)
+fw_core/Eigen/src/Core/BandMatrix.h
+         14.02K 100%  112.23kB/s    0:00:00           14.02K 100%  112.23kB/s    0:00:00 (xfr#137, to-chk=343/524)
+fw_core/Eigen/src/Core/Block.h
+         18.65K 100%  149.27kB/s    0:00:00           18.65K 100%  149.27kB/s    0:00:00 (xfr#138, to-chk=342/524)
+fw_core/Eigen/src/Core/BooleanRedux.h
+          4.41K 100%   35.29kB/s    0:00:00            4.41K 100%   35.29kB/s    0:00:00 (xfr#139, to-chk=341/524)
+fw_core/Eigen/src/Core/CommaInitializer.h
+          5.98K 100%   47.88kB/s    0:00:00            5.98K 100%   47.88kB/s    0:00:00 (xfr#140, to-chk=340/524)
+fw_core/Eigen/src/Core/ConditionEstimator.h
+          6.99K 100%   55.50kB/s    0:00:00            6.99K 100%   55.50kB/s    0:00:00 (xfr#141, to-chk=339/524)
+fw_core/Eigen/src/Core/CoreEvaluators.h
+         32.77K  51%  260.16kB/s    0:00:00           63.96K 100%  503.69kB/s    0:00:00 (xfr#142, to-chk=338/524)
+fw_core/Eigen/src/Core/CoreIterators.h
+          4.75K 100%   37.37kB/s    0:00:00            4.75K 100%   37.37kB/s    0:00:00 (xfr#143, to-chk=337/524)
+fw_core/Eigen/src/Core/CwiseBinaryOp.h
+          7.93K 100%   62.43kB/s    0:00:00            7.93K 100%   62.43kB/s    0:00:00 (xfr#144, to-chk=336/524)
+fw_core/Eigen/src/Core/CwiseNullaryOp.h
+         32.77K  90%  256.00kB/s    0:00:00           36.28K 100%  283.45kB/s    0:00:00 (xfr#145, to-chk=335/524)
+fw_core/Eigen/src/Core/CwiseTernaryOp.h
+          8.26K 100%   64.50kB/s    0:00:00            8.26K 100%   64.50kB/s    0:00:00 (xfr#146, to-chk=334/524)
+fw_core/Eigen/src/Core/CwiseUnaryOp.h
+          3.94K 100%   30.76kB/s    0:00:00            3.94K 100%   30.76kB/s    0:00:00 (xfr#147, to-chk=333/524)
+fw_core/Eigen/src/Core/CwiseUnaryView.h
+          5.55K 100%   43.37kB/s    0:00:00            5.55K 100%   43.37kB/s    0:00:00 (xfr#148, to-chk=332/524)
+fw_core/Eigen/src/Core/DenseBase.h
+         31.53K 100%  244.37kB/s    0:00:00           31.53K 100%  244.37kB/s    0:00:00 (xfr#149, to-chk=331/524)
+fw_core/Eigen/src/Core/DenseCoeffsBase.h
+         24.48K 100%  189.76kB/s    0:00:00           24.48K 100%  189.76kB/s    0:00:00 (xfr#150, to-chk=330/524)
+fw_core/Eigen/src/Core/DenseStorage.h
+         23.03K 100%  177.09kB/s    0:00:00           23.03K 100%  177.09kB/s    0:00:00 (xfr#151, to-chk=329/524)
+fw_core/Eigen/src/Core/Diagonal.h
+          9.87K 100%   75.90kB/s    0:00:00            9.87K 100%   75.90kB/s    0:00:00 (xfr#152, to-chk=328/524)
+fw_core/Eigen/src/Core/DiagonalMatrix.h
+         14.67K 100%  112.80kB/s    0:00:00           14.67K 100%  112.80kB/s    0:00:00 (xfr#153, to-chk=327/524)
+fw_core/Eigen/src/Core/DiagonalProduct.h
+            988 100%    7.60kB/s    0:00:00              988 100%    7.60kB/s    0:00:00 (xfr#154, to-chk=326/524)
+fw_core/Eigen/src/Core/Dot.h
+         11.65K 100%   88.85kB/s    0:00:00           11.65K 100%   88.85kB/s    0:00:00 (xfr#155, to-chk=325/524)
+fw_core/Eigen/src/Core/EigenBase.h
+          5.84K 100%   44.56kB/s    0:00:00            5.84K 100%   44.56kB/s    0:00:00 (xfr#156, to-chk=324/524)
+fw_core/Eigen/src/Core/ForceAlignedAccess.h
+          4.91K 100%   37.45kB/s    0:00:00            4.91K 100%   37.45kB/s    0:00:00 (xfr#157, to-chk=323/524)
+fw_core/Eigen/src/Core/Fuzzy.h
+          5.76K 100%   43.94kB/s    0:00:00            5.76K 100%   43.94kB/s    0:00:00 (xfr#158, to-chk=322/524)
+fw_core/Eigen/src/Core/GeneralProduct.h
+         21.68K 100%  164.12kB/s    0:00:00           21.68K 100%  164.12kB/s    0:00:00 (xfr#159, to-chk=321/524)
+fw_core/Eigen/src/Core/GenericPacketMath.h
+         32.77K  94%  248.06kB/s    0:00:00           34.83K 100%  263.69kB/s    0:00:00 (xfr#160, to-chk=320/524)
+fw_core/Eigen/src/Core/GlobalFunctions.h
+         11.54K 100%   86.71kB/s    0:00:00           11.54K 100%   86.71kB/s    0:00:00 (xfr#161, to-chk=319/524)
+fw_core/Eigen/src/Core/IO.h
+          8.24K 100%   61.88kB/s    0:00:00            8.24K 100%   61.88kB/s    0:00:00 (xfr#162, to-chk=318/524)
+fw_core/Eigen/src/Core/IndexedView.h
+          9.62K 100%   72.27kB/s    0:00:00            9.62K 100%   72.27kB/s    0:00:00 (xfr#163, to-chk=317/524)
+fw_core/Eigen/src/Core/Inverse.h
+          3.50K 100%   26.31kB/s    0:00:00            3.50K 100%   26.31kB/s    0:00:00 (xfr#164, to-chk=316/524)
+fw_core/Eigen/src/Core/Map.h
+          7.26K 100%   54.52kB/s    0:00:00            7.26K 100%   54.52kB/s    0:00:00 (xfr#165, to-chk=315/524)
+fw_core/Eigen/src/Core/MapBase.h
+         11.28K 100%   84.10kB/s    0:00:00           11.28K 100%   84.10kB/s    0:00:00 (xfr#166, to-chk=314/524)
+fw_core/Eigen/src/Core/MathFunctions.h
+         32.77K  54%  244.27kB/s    0:00:00           59.63K 100%  441.19kB/s    0:00:00 (xfr#167, to-chk=313/524)
+fw_core/Eigen/src/Core/MathFunctionsImpl.h
+          6.90K 100%   51.05kB/s    0:00:00            6.90K 100%   51.05kB/s    0:00:00 (xfr#168, to-chk=312/524)
+fw_core/Eigen/src/Core/Matrix.h
+         24.34K 100%  178.74kB/s    0:00:00           24.34K 100%  178.74kB/s    0:00:00 (xfr#169, to-chk=311/524)
+fw_core/Eigen/src/Core/MatrixBase.h
+         23.86K 100%  175.16kB/s    0:00:00           23.86K 100%  175.16kB/s    0:00:00 (xfr#170, to-chk=310/524)
+fw_core/Eigen/src/Core/NestByValue.h
+          2.52K 100%   18.50kB/s    0:00:00            2.52K 100%   18.50kB/s    0:00:00 (xfr#171, to-chk=309/524)
+fw_core/Eigen/src/Core/NoAlias.h
+          3.62K 100%   26.58kB/s    0:00:00            3.62K 100%   26.58kB/s    0:00:00 (xfr#172, to-chk=308/524)
+fw_core/Eigen/src/Core/NumTraits.h
+         12.87K 100%   93.79kB/s    0:00:00           12.87K 100%   93.79kB/s    0:00:00 (xfr#173, to-chk=307/524)
+fw_core/Eigen/src/Core/PartialReduxEvaluator.h
+          9.20K 100%   67.03kB/s    0:00:00            9.20K 100%   67.03kB/s    0:00:00 (xfr#174, to-chk=306/524)
+fw_core/Eigen/src/Core/PermutationMatrix.h
+         20.75K 100%  151.21kB/s    0:00:00           20.75K 100%  151.21kB/s    0:00:00 (xfr#175, to-chk=305/524)
+fw_core/Eigen/src/Core/PlainObjectBase.h
+         32.77K  66%  237.04kB/s    0:00:00           49.24K 100%  356.17kB/s    0:00:00 (xfr#176, to-chk=304/524)
+fw_core/Eigen/src/Core/Product.h
+          7.34K 100%   52.68kB/s    0:00:00            7.34K 100%   52.68kB/s    0:00:00 (xfr#177, to-chk=303/524)
+fw_core/Eigen/src/Core/ProductEvaluators.h
+         32.77K  60%  235.29kB/s    0:00:00           53.82K 100%  383.62kB/s    0:00:00 (xfr#178, to-chk=302/524)
+fw_core/Eigen/src/Core/Random.h
+          7.76K 100%   55.29kB/s    0:00:00            7.76K 100%   55.29kB/s    0:00:00 (xfr#179, to-chk=301/524)
+fw_core/Eigen/src/Core/Redux.h
+         19.17K 100%  136.65kB/s    0:00:00           19.17K 100%  136.65kB/s    0:00:00 (xfr#180, to-chk=300/524)
+fw_core/Eigen/src/Core/Ref.h
+         17.82K 100%  126.11kB/s    0:00:00           17.82K 100%  126.11kB/s    0:00:00 (xfr#181, to-chk=299/524)
+fw_core/Eigen/src/Core/Replicate.h
+          5.66K 100%   40.02kB/s    0:00:00            5.66K 100%   40.02kB/s    0:00:00 (xfr#182, to-chk=298/524)
+fw_core/Eigen/src/Core/Reshaped.h
+         17.03K 100%  120.53kB/s    0:00:00           17.03K 100%  120.53kB/s    0:00:00 (xfr#183, to-chk=297/524)
+fw_core/Eigen/src/Core/ReturnByValue.h
+          4.28K 100%   30.10kB/s    0:00:00            4.28K 100%   30.10kB/s    0:00:00 (xfr#184, to-chk=296/524)
+fw_core/Eigen/src/Core/Reverse.h
+          7.52K 100%   52.85kB/s    0:00:00            7.52K 100%   52.85kB/s    0:00:00 (xfr#185, to-chk=295/524)
+fw_core/Eigen/src/Core/Select.h
+          6.14K 100%   43.16kB/s    0:00:00            6.14K 100%   43.16kB/s    0:00:00 (xfr#186, to-chk=294/524)
+fw_core/Eigen/src/Core/SelfAdjointView.h
+         14.98K 100%  105.24kB/s    0:00:00           14.98K 100%  105.24kB/s    0:00:00 (xfr#187, to-chk=293/524)
+fw_core/Eigen/src/Core/SelfCwiseBinaryOp.h
+          1.70K 100%   11.92kB/s    0:00:00            1.70K 100%   11.92kB/s    0:00:00 (xfr#188, to-chk=292/524)
+fw_core/Eigen/src/Core/Solve.h
+          6.84K 100%   48.03kB/s    0:00:00            6.84K 100%   48.03kB/s    0:00:00 (xfr#189, to-chk=291/524)
+fw_core/Eigen/src/Core/SolveTriangular.h
+          9.34K 100%   65.16kB/s    0:00:00            9.34K 100%   65.16kB/s    0:00:00 (xfr#190, to-chk=290/524)
+fw_core/Eigen/src/Core/SolverBase.h
+          6.17K 100%   43.04kB/s    0:00:00            6.17K 100%   43.04kB/s    0:00:00 (xfr#191, to-chk=289/524)
+fw_core/Eigen/src/Core/StableNorm.h
+          8.70K 100%   60.69kB/s    0:00:00            8.70K 100%   60.69kB/s    0:00:00 (xfr#192, to-chk=288/524)
+fw_core/Eigen/src/Core/StlIterators.h
+         21.64K 100%  150.96kB/s    0:00:00           21.64K 100%  150.96kB/s    0:00:00 (xfr#193, to-chk=287/524)
+fw_core/Eigen/src/Core/Stride.h
+          4.21K 100%   29.38kB/s    0:00:00            4.21K 100%   29.17kB/s    0:00:00 (xfr#194, to-chk=286/524)
+fw_core/Eigen/src/Core/Swap.h
+          2.77K 100%   19.15kB/s    0:00:00            2.77K 100%   19.15kB/s    0:00:00 (xfr#195, to-chk=285/524)
+fw_core/Eigen/src/Core/Transpose.h
+         17.61K 100%  121.94kB/s    0:00:00           17.61K 100%  121.94kB/s    0:00:00 (xfr#196, to-chk=284/524)
+fw_core/Eigen/src/Core/Transpositions.h
+         13.57K 100%   93.96kB/s    0:00:00           13.57K 100%   93.96kB/s    0:00:00 (xfr#197, to-chk=283/524)
+fw_core/Eigen/src/Core/TriangularMatrix.h
+         32.77K  85%  225.35kB/s    0:00:00           38.21K 100%  262.79kB/s    0:00:00 (xfr#198, to-chk=282/524)
+fw_core/Eigen/src/Core/VectorBlock.h
+          3.49K 100%   23.99kB/s    0:00:00            3.49K 100%   23.99kB/s    0:00:00 (xfr#199, to-chk=281/524)
+fw_core/Eigen/src/Core/VectorwiseOp.h
+         32.77K  93%  223.78kB/s    0:00:00           35.17K 100%  240.17kB/s    0:00:00 (xfr#200, to-chk=280/524)
+fw_core/Eigen/src/Core/Visitor.h
+         11.99K 100%   81.86kB/s    0:00:00           11.99K 100%   81.86kB/s    0:00:00 (xfr#201, to-chk=279/524)
+fw_core/Eigen/src/Core/arch/
+fw_core/Eigen/src/Core/arch/AVX/
+fw_core/Eigen/src/Core/arch/AVX/Complex.h
+         17.25K 100%  116.98kB/s    0:00:00           17.25K 100%  116.98kB/s    0:00:00 (xfr#202, to-chk=261/524)
+fw_core/Eigen/src/Core/arch/AVX/MathFunctions.h
+          8.10K 100%   54.95kB/s    0:00:00            8.10K 100%   54.95kB/s    0:00:00 (xfr#203, to-chk=260/524)
+fw_core/Eigen/src/Core/arch/AVX/PacketMath.h
+         32.77K  50%  222.22kB/s    0:00:00           64.84K 100%  436.71kB/s    0:00:00 (xfr#204, to-chk=259/524)
+fw_core/Eigen/src/Core/arch/AVX/TypeCasting.h
+          2.56K 100%   17.27kB/s    0:00:00            2.56K 100%   17.27kB/s    0:00:00 (xfr#205, to-chk=258/524)
+fw_core/Eigen/src/Core/arch/AVX512/
+fw_core/Eigen/src/Core/arch/AVX512/Complex.h
+         18.17K 100%  122.39kB/s    0:00:00           18.17K 100%  122.39kB/s    0:00:00 (xfr#206, to-chk=257/524)
+fw_core/Eigen/src/Core/arch/AVX512/MathFunctions.h
+         15.80K 100%  105.72kB/s    0:00:00           15.80K 100%  105.72kB/s    0:00:00 (xfr#207, to-chk=256/524)
+fw_core/Eigen/src/Core/arch/AVX512/PacketMath.h
+         32.77K  37%  219.18kB/s    0:00:00           88.16K 100%  585.66kB/s    0:00:00 (xfr#208, to-chk=255/524)
+fw_core/Eigen/src/Core/arch/AVX512/TypeCasting.h
+          2.13K 100%   14.18kB/s    0:00:00            2.13K 100%   14.18kB/s    0:00:00 (xfr#209, to-chk=254/524)
+fw_core/Eigen/src/Core/arch/AltiVec/
+fw_core/Eigen/src/Core/arch/AltiVec/Complex.h
+         18.66K 100%  123.13kB/s    0:00:00           18.66K 100%  123.13kB/s    0:00:00 (xfr#210, to-chk=253/524)
+fw_core/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+          2.32K 100%   15.33kB/s    0:00:00            2.32K 100%   15.33kB/s    0:00:00 (xfr#211, to-chk=252/524)
+fw_core/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+         32.77K  27%  216.22kB/s    0:00:00          119.14K 100%  775.64kB/s    0:00:00 (xfr#212, to-chk=251/524)
+fw_core/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h
+          9.53K 100%   62.01kB/s    0:00:00            9.53K 100%   62.01kB/s    0:00:00 (xfr#213, to-chk=250/524)
+fw_core/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+         24.96K 100%  161.45kB/s    0:00:00           24.96K 100%  161.45kB/s    0:00:00 (xfr#214, to-chk=249/524)
+fw_core/Eigen/src/Core/arch/AltiVec/PacketMath.h
+         32.77K  32%  211.92kB/s    0:00:00          100.69K 100%  642.70kB/s    0:00:00 (xfr#215, to-chk=248/524)
+fw_core/Eigen/src/Core/arch/CUDA/
+fw_core/Eigen/src/Core/arch/CUDA/Complex.h
+         17.34K 100%  110.67kB/s    0:00:00           17.34K 100%  110.67kB/s    0:00:00 (xfr#216, to-chk=247/524)
+fw_core/Eigen/src/Core/arch/Default/
+fw_core/Eigen/src/Core/arch/Default/BFloat16.h
+         27.25K 100%  173.95kB/s    0:00:00           27.25K 100%  173.95kB/s    0:00:00 (xfr#217, to-chk=246/524)
+fw_core/Eigen/src/Core/arch/Default/ConjHelper.h
+          1.99K 100%   12.61kB/s    0:00:00            1.99K 100%   12.61kB/s    0:00:00 (xfr#218, to-chk=245/524)
+fw_core/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+         32.77K  48%  207.79kB/s    0:00:00           67.91K 100%  425.14kB/s    0:00:00 (xfr#219, to-chk=244/524)
+fw_core/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+          4.00K 100%   25.02kB/s    0:00:00            4.00K 100%   25.02kB/s    0:00:00 (xfr#220, to-chk=243/524)
+fw_core/Eigen/src/Core/arch/Default/Half.h
+         32.77K  92%  205.13kB/s    0:00:00           35.53K 100%  221.03kB/s    0:00:00 (xfr#221, to-chk=242/524)
+fw_core/Eigen/src/Core/arch/Default/Settings.h
+          1.75K 100%   10.86kB/s    0:00:00            1.75K 100%   10.86kB/s    0:00:00 (xfr#222, to-chk=241/524)
+fw_core/Eigen/src/Core/arch/Default/TypeCasting.h
+          3.75K 100%   23.30kB/s    0:00:00            3.75K 100%   23.30kB/s    0:00:00 (xfr#223, to-chk=240/524)
+fw_core/Eigen/src/Core/arch/GPU/
+fw_core/Eigen/src/Core/arch/GPU/MathFunctions.h
+          2.69K 100%   16.76kB/s    0:00:00            2.69K 100%   16.76kB/s    0:00:00 (xfr#224, to-chk=239/524)
+fw_core/Eigen/src/Core/arch/GPU/PacketMath.h
+         32.77K  57%  203.82kB/s    0:00:00           57.05K 100%  352.59kB/s    0:00:00 (xfr#225, to-chk=238/524)
+fw_core/Eigen/src/Core/arch/GPU/TypeCasting.h
+          2.26K 100%   13.94kB/s    0:00:00            2.26K 100%   13.94kB/s    0:00:00 (xfr#226, to-chk=237/524)
+fw_core/Eigen/src/Core/arch/HIP/
+fw_core/Eigen/src/Core/arch/HIP/hcc/
+fw_core/Eigen/src/Core/arch/HIP/hcc/math_constants.h
+            691 100%    4.27kB/s    0:00:00              691 100%    4.27kB/s    0:00:00 (xfr#227, to-chk=235/524)
+fw_core/Eigen/src/Core/arch/MSA/
+fw_core/Eigen/src/Core/arch/MSA/Complex.h
+         19.83K 100%  122.57kB/s    0:00:00           19.83K 100%  122.57kB/s    0:00:00 (xfr#228, to-chk=234/524)
+fw_core/Eigen/src/Core/arch/MSA/MathFunctions.h
+         16.16K 100%   99.25kB/s    0:00:00           16.16K 100%   99.25kB/s    0:00:00 (xfr#229, to-chk=233/524)
+fw_core/Eigen/src/Core/arch/MSA/PacketMath.h
+         32.77K  97%  201.26kB/s    0:00:00           33.71K 100%  207.05kB/s    0:00:00 (xfr#230, to-chk=232/524)
+fw_core/Eigen/src/Core/arch/NEON/
+fw_core/Eigen/src/Core/arch/NEON/Complex.h
+         25.89K 100%  158.04kB/s    0:00:00           25.89K 100%  158.04kB/s    0:00:00 (xfr#231, to-chk=231/524)
+fw_core/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+          6.82K 100%   41.60kB/s    0:00:00            6.82K 100%   41.60kB/s    0:00:00 (xfr#232, to-chk=230/524)
+fw_core/Eigen/src/Core/arch/NEON/MathFunctions.h
+          3.08K 100%   18.82kB/s    0:00:00            3.08K 100%   18.82kB/s    0:00:00 (xfr#233, to-chk=229/524)
+fw_core/Eigen/src/Core/arch/NEON/PacketMath.h
+         32.77K  16%  200.00kB/s    0:00:00          196.31K 100%    1.15MB/s    0:00:00 (xfr#234, to-chk=228/524)
+fw_core/Eigen/src/Core/arch/NEON/TypeCasting.h
+         32.77K  63%  195.12kB/s    0:00:00           51.29K 100%  305.39kB/s    0:00:00 (xfr#235, to-chk=227/524)
+fw_core/Eigen/src/Core/arch/SSE/
+fw_core/Eigen/src/Core/arch/SSE/Complex.h
+         19.09K 100%  113.70kB/s    0:00:00           19.09K 100%  113.70kB/s    0:00:00 (xfr#236, to-chk=226/524)
+fw_core/Eigen/src/Core/arch/SSE/MathFunctions.h
+          6.76K 100%   40.28kB/s    0:00:00            6.76K 100%   40.28kB/s    0:00:00 (xfr#237, to-chk=225/524)
+fw_core/Eigen/src/Core/arch/SSE/PacketMath.h
+         32.77K  50%  193.94kB/s    0:00:00           64.47K 100%  379.24kB/s    0:00:00 (xfr#238, to-chk=224/524)
+fw_core/Eigen/src/Core/arch/SSE/TypeCasting.h
+          3.65K 100%   21.47kB/s    0:00:00            3.65K 100%   21.47kB/s    0:00:00 (xfr#239, to-chk=223/524)
+fw_core/Eigen/src/Core/arch/SVE/
+fw_core/Eigen/src/Core/arch/SVE/MathFunctions.h
+          1.19K 100%    7.02kB/s    0:00:00            1.19K 100%    7.02kB/s    0:00:00 (xfr#240, to-chk=222/524)
+fw_core/Eigen/src/Core/arch/SVE/PacketMath.h
+         21.30K 100%  125.28kB/s    0:00:00           21.30K 100%  125.28kB/s    0:00:00 (xfr#241, to-chk=221/524)
+fw_core/Eigen/src/Core/arch/SVE/TypeCasting.h
+          1.35K 100%    7.95kB/s    0:00:00            1.35K 100%    7.95kB/s    0:00:00 (xfr#242, to-chk=220/524)
+fw_core/Eigen/src/Core/arch/SYCL/
+fw_core/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+          7.43K 100%   43.70kB/s    0:00:00            7.43K 100%   43.70kB/s    0:00:00 (xfr#243, to-chk=219/524)
+fw_core/Eigen/src/Core/arch/SYCL/MathFunctions.h
+         12.54K 100%   73.32kB/s    0:00:00           12.54K 100%   73.32kB/s    0:00:00 (xfr#244, to-chk=218/524)
+fw_core/Eigen/src/Core/arch/SYCL/PacketMath.h
+         27.79K 100%  162.48kB/s    0:00:00           27.79K 100%  162.48kB/s    0:00:00 (xfr#245, to-chk=217/524)
+fw_core/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+         21.86K 100%  127.05kB/s    0:00:00           21.86K 100%  127.05kB/s    0:00:00 (xfr#246, to-chk=216/524)
+fw_core/Eigen/src/Core/arch/SYCL/TypeCasting.h
+          2.63K 100%   15.26kB/s    0:00:00            2.63K 100%   15.26kB/s    0:00:00 (xfr#247, to-chk=215/524)
+fw_core/Eigen/src/Core/arch/ZVector/
+fw_core/Eigen/src/Core/arch/ZVector/Complex.h
+         19.84K 100%  115.36kB/s    0:00:00           19.84K 100%  115.36kB/s    0:00:00 (xfr#248, to-chk=214/524)
+fw_core/Eigen/src/Core/arch/ZVector/MathFunctions.h
+          8.02K 100%   46.64kB/s    0:00:00            8.02K 100%   46.64kB/s    0:00:00 (xfr#249, to-chk=213/524)
+fw_core/Eigen/src/Core/arch/ZVector/PacketMath.h
+         32.77K  88%  189.35kB/s    0:00:00           36.88K 100%  213.09kB/s    0:00:00 (xfr#250, to-chk=212/524)
+fw_core/Eigen/src/Core/functors/
+fw_core/Eigen/src/Core/functors/AssignmentFunctors.h
+          6.69K 100%   38.63kB/s    0:00:00            6.69K 100%   38.63kB/s    0:00:00 (xfr#251, to-chk=211/524)
+fw_core/Eigen/src/Core/functors/BinaryFunctors.h
+         20.88K 100%  120.67kB/s    0:00:00           20.88K 100%  120.67kB/s    0:00:00 (xfr#252, to-chk=210/524)
+fw_core/Eigen/src/Core/functors/NullaryFunctors.h
+          8.33K 100%   47.87kB/s    0:00:00            8.33K 100%   47.87kB/s    0:00:00 (xfr#253, to-chk=209/524)
+fw_core/Eigen/src/Core/functors/StlFunctors.h
+          4.34K 100%   24.96kB/s    0:00:00            4.34K 100%   24.96kB/s    0:00:00 (xfr#254, to-chk=208/524)
+fw_core/Eigen/src/Core/functors/TernaryFunctors.h
+            607 100%    3.49kB/s    0:00:00              607 100%    3.49kB/s    0:00:00 (xfr#255, to-chk=207/524)
+fw_core/Eigen/src/Core/functors/UnaryFunctors.h
+         32.77K  81%  188.24kB/s    0:00:00           40.17K 100%  230.75kB/s    0:00:00 (xfr#256, to-chk=206/524)
+fw_core/Eigen/src/Core/products/
+fw_core/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+         32.77K  29%  187.13kB/s    0:00:00          109.38K 100%  617.43kB/s    0:00:00 (xfr#257, to-chk=205/524)
+fw_core/Eigen/src/Core/products/GeneralMatrixMatrix.h
+         20.10K 100%  112.83kB/s    0:00:00           20.10K 100%  112.83kB/s    0:00:00 (xfr#258, to-chk=204/524)
+fw_core/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+         15.95K 100%   89.51kB/s    0:00:00           15.95K 100%   89.51kB/s    0:00:00 (xfr#259, to-chk=203/524)
+fw_core/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+          6.94K 100%   38.93kB/s    0:00:00            6.94K 100%   38.93kB/s    0:00:00 (xfr#260, to-chk=202/524)
+fw_core/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+          5.11K 100%   28.66kB/s    0:00:00            5.11K 100%   28.66kB/s    0:00:00 (xfr#261, to-chk=201/524)
+fw_core/Eigen/src/Core/products/GeneralMatrixVector.h
+         21.72K 100%  121.23kB/s    0:00:00           21.72K 100%  121.23kB/s    0:00:00 (xfr#262, to-chk=200/524)
+fw_core/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+          6.37K 100%   35.54kB/s    0:00:00            6.37K 100%   35.54kB/s    0:00:00 (xfr#263, to-chk=199/524)
+fw_core/Eigen/src/Core/products/Parallelizer.h
+          5.58K 100%   31.15kB/s    0:00:00            5.58K 100%   31.15kB/s    0:00:00 (xfr#264, to-chk=198/524)
+fw_core/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+         21.35K 100%  119.16kB/s    0:00:00           21.35K 100%  119.16kB/s    0:00:00 (xfr#265, to-chk=197/524)
+fw_core/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+         11.57K 100%   64.20kB/s    0:00:00           11.57K 100%   64.20kB/s    0:00:00 (xfr#266, to-chk=196/524)
+fw_core/Eigen/src/Core/products/SelfadjointMatrixVector.h
+          9.96K 100%   55.25kB/s    0:00:00            9.96K 100%   55.25kB/s    0:00:00 (xfr#267, to-chk=195/524)
+fw_core/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+          5.21K 100%   28.90kB/s    0:00:00            5.21K 100%   28.90kB/s    0:00:00 (xfr#268, to-chk=194/524)
+fw_core/Eigen/src/Core/products/SelfadjointProduct.h
+          6.16K 100%   34.20kB/s    0:00:00            6.16K 100%   34.20kB/s    0:00:00 (xfr#269, to-chk=193/524)
+fw_core/Eigen/src/Core/products/SelfadjointRank2Update.h
+          4.10K 100%   22.77kB/s    0:00:00            4.10K 100%   22.77kB/s    0:00:00 (xfr#270, to-chk=192/524)
+fw_core/Eigen/src/Core/products/TriangularMatrixMatrix.h
+         20.99K 100%  115.79kB/s    0:00:00           20.99K 100%  115.79kB/s    0:00:00 (xfr#271, to-chk=191/524)
+fw_core/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+         13.87K 100%   76.51kB/s    0:00:00           13.87K 100%   76.51kB/s    0:00:00 (xfr#272, to-chk=190/524)
+fw_core/Eigen/src/Core/products/TriangularMatrixVector.h
+         14.72K 100%   81.23kB/s    0:00:00           14.72K 100%   81.23kB/s    0:00:00 (xfr#273, to-chk=189/524)
+fw_core/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+         10.57K 100%   58.00kB/s    0:00:00           10.57K 100%   58.00kB/s    0:00:00 (xfr#274, to-chk=188/524)
+fw_core/Eigen/src/Core/products/TriangularSolverMatrix.h
+         14.68K 100%   80.53kB/s    0:00:00           14.68K 100%   80.53kB/s    0:00:00 (xfr#275, to-chk=187/524)
+fw_core/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+          6.71K 100%   36.80kB/s    0:00:00            6.71K 100%   36.80kB/s    0:00:00 (xfr#276, to-chk=186/524)
+fw_core/Eigen/src/Core/products/TriangularSolverVector.h
+          5.88K 100%   32.27kB/s    0:00:00            5.88K 100%   32.27kB/s    0:00:00 (xfr#277, to-chk=185/524)
+fw_core/Eigen/src/Core/util/
+fw_core/Eigen/src/Core/util/BlasUtil.h
+         26.74K 100%  145.86kB/s    0:00:00           26.74K 100%  145.86kB/s    0:00:00 (xfr#278, to-chk=184/524)
+fw_core/Eigen/src/Core/util/ConfigureVectorization.h
+         19.88K 100%  108.44kB/s    0:00:00           19.88K 100%  108.44kB/s    0:00:00 (xfr#279, to-chk=183/524)
+fw_core/Eigen/src/Core/util/Constants.h
+         21.93K 100%  118.98kB/s    0:00:00           21.93K 100%  118.98kB/s    0:00:00 (xfr#280, to-chk=182/524)
+fw_core/Eigen/src/Core/util/DisableStupidWarnings.h
+          4.89K 100%   26.54kB/s    0:00:00            4.89K 100%   26.54kB/s    0:00:00 (xfr#281, to-chk=181/524)
+fw_core/Eigen/src/Core/util/ForwardDeclarations.h
+         15.55K 100%   84.39kB/s    0:00:00           15.55K 100%   84.39kB/s    0:00:00 (xfr#282, to-chk=180/524)
+fw_core/Eigen/src/Core/util/IndexedViewHelper.h
+          6.70K 100%   36.33kB/s    0:00:00            6.70K 100%   36.33kB/s    0:00:00 (xfr#283, to-chk=179/524)
+fw_core/Eigen/src/Core/util/IntegralConstant.h
+         10.91K 100%   58.87kB/s    0:00:00           10.91K 100%   58.87kB/s    0:00:00 (xfr#284, to-chk=178/524)
+fw_core/Eigen/src/Core/util/MKL_support.h
+          4.27K 100%   23.03kB/s    0:00:00            4.27K 100%   23.03kB/s    0:00:00 (xfr#285, to-chk=177/524)
+fw_core/Eigen/src/Core/util/Macros.h
+         32.77K  62%  175.82kB/s    0:00:00           52.41K 100%  281.22kB/s    0:00:00 (xfr#286, to-chk=176/524)
+fw_core/Eigen/src/Core/util/Memory.h
+         32.77K  70%  174.86kB/s    0:00:00           46.36K 100%  246.07kB/s    0:00:00 (xfr#287, to-chk=175/524)
+fw_core/Eigen/src/Core/util/Meta.h
+         29.20K 100%  154.99kB/s    0:00:00           29.20K 100%  154.99kB/s    0:00:00 (xfr#288, to-chk=174/524)
+fw_core/Eigen/src/Core/util/NonMPL2.h
+             85 100%    0.45kB/s    0:00:00               85 100%    0.45kB/s    0:00:00 (xfr#289, to-chk=173/524)
+fw_core/Eigen/src/Core/util/ReenableStupidWarnings.h
+          1.02K 100%    5.41kB/s    0:00:00            1.02K 100%    5.41kB/s    0:00:00 (xfr#290, to-chk=172/524)
+fw_core/Eigen/src/Core/util/ReshapedHelper.h
+          1.43K 100%    7.56kB/s    0:00:00            1.43K 100%    7.56kB/s    0:00:00 (xfr#291, to-chk=171/524)
+fw_core/Eigen/src/Core/util/StaticAssert.h
+         10.68K 100%   56.36kB/s    0:00:00           10.68K 100%   56.36kB/s    0:00:00 (xfr#292, to-chk=170/524)
+fw_core/Eigen/src/Core/util/SymbolicIndex.h
+         12.00K 100%   63.36kB/s    0:00:00           12.00K 100%   63.36kB/s    0:00:00 (xfr#293, to-chk=169/524)
+fw_core/Eigen/src/Core/util/XprHelper.h
+         32.77K  91%  172.04kB/s    0:00:00           35.92K 100%  188.61kB/s    0:00:00 (xfr#294, to-chk=168/524)
+fw_core/Eigen/src/Eigenvalues/
+fw_core/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+         12.56K 100%   65.59kB/s    0:00:00           12.56K 100%   65.59kB/s    0:00:00 (xfr#295, to-chk=167/524)
+fw_core/Eigen/src/Eigenvalues/ComplexSchur.h
+         17.27K 100%   90.21kB/s    0:00:00           17.27K 100%   90.21kB/s    0:00:00 (xfr#296, to-chk=166/524)
+fw_core/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+          4.18K 100%   21.82kB/s    0:00:00            4.18K 100%   21.82kB/s    0:00:00 (xfr#297, to-chk=165/524)
+fw_core/Eigen/src/Eigenvalues/EigenSolver.h
+         22.97K 100%  119.32kB/s    0:00:00           22.97K 100%  119.32kB/s    0:00:00 (xfr#298, to-chk=164/524)
+fw_core/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+         17.18K 100%   89.22kB/s    0:00:00           17.18K 100%   89.22kB/s    0:00:00 (xfr#299, to-chk=163/524)
+fw_core/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+          9.72K 100%   50.47kB/s    0:00:00            9.72K 100%   50.47kB/s    0:00:00 (xfr#300, to-chk=162/524)
+fw_core/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+         14.34K 100%   74.09kB/s    0:00:00           14.34K 100%   74.09kB/s    0:00:00 (xfr#301, to-chk=161/524)
+fw_core/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+          5.58K 100%   28.81kB/s    0:00:00            5.58K 100%   28.81kB/s    0:00:00 (xfr#302, to-chk=160/524)
+fw_core/Eigen/src/Eigenvalues/RealQZ.h
+         23.64K 100%  121.50kB/s    0:00:00           23.64K 100%  121.50kB/s    0:00:00 (xfr#303, to-chk=159/524)
+fw_core/Eigen/src/Eigenvalues/RealSchur.h
+         21.08K 100%  108.34kB/s    0:00:00           21.08K 100%  108.34kB/s    0:00:00 (xfr#304, to-chk=158/524)
+fw_core/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+          3.65K 100%   18.76kB/s    0:00:00            3.65K 100%   18.76kB/s    0:00:00 (xfr#305, to-chk=157/524)
+fw_core/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+         32.77K  93%  167.54kB/s    0:00:00           34.95K 100%  178.70kB/s    0:00:00 (xfr#306, to-chk=156/524)
+fw_core/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+          4.10K 100%   20.98kB/s    0:00:00            4.10K 100%   20.98kB/s    0:00:00 (xfr#307, to-chk=155/524)
+fw_core/Eigen/src/Eigenvalues/Tridiagonalization.h
+         22.59K 100%  114.92kB/s    0:00:00           22.59K 100%  114.92kB/s    0:00:00 (xfr#308, to-chk=154/524)
+fw_core/Eigen/src/Geometry/
+fw_core/Eigen/src/Geometry/AlignedBox.h
+         18.94K 100%   95.83kB/s    0:00:00           18.94K 100%   95.83kB/s    0:00:00 (xfr#309, to-chk=153/524)
+fw_core/Eigen/src/Geometry/AngleAxis.h
+          8.40K 100%   42.52kB/s    0:00:00            8.40K 100%   42.52kB/s    0:00:00 (xfr#310, to-chk=152/524)
+fw_core/Eigen/src/Geometry/EulerAngles.h
+          3.62K 100%   18.34kB/s    0:00:00            3.62K 100%   18.34kB/s    0:00:00 (xfr#311, to-chk=151/524)
+fw_core/Eigen/src/Geometry/Homogeneous.h
+         20.73K 100%  104.87kB/s    0:00:00           20.73K 100%  104.87kB/s    0:00:00 (xfr#312, to-chk=150/524)
+fw_core/Eigen/src/Geometry/Hyperplane.h
+         11.96K 100%   60.21kB/s    0:00:00           11.96K 100%   60.21kB/s    0:00:00 (xfr#313, to-chk=149/524)
+fw_core/Eigen/src/Geometry/OrthoMethods.h
+          8.96K 100%   45.08kB/s    0:00:00            8.96K 100%   45.08kB/s    0:00:00 (xfr#314, to-chk=148/524)
+fw_core/Eigen/src/Geometry/ParametrizedLine.h
+          9.81K 100%   49.39kB/s    0:00:00            9.81K 100%   49.39kB/s    0:00:00 (xfr#315, to-chk=147/524)
+fw_core/Eigen/src/Geometry/Quaternion.h
+         32.77K  95%  164.10kB/s    0:00:00           34.37K 100%  172.11kB/s    0:00:00 (xfr#316, to-chk=146/524)
+fw_core/Eigen/src/Geometry/Rotation2D.h
+          6.86K 100%   34.36kB/s    0:00:00            6.86K 100%   34.36kB/s    0:00:00 (xfr#317, to-chk=145/524)
+fw_core/Eigen/src/Geometry/RotationBase.h
+          8.06K 100%   40.38kB/s    0:00:00            8.06K 100%   40.38kB/s    0:00:00 (xfr#318, to-chk=144/524)
+fw_core/Eigen/src/Geometry/Scaling.h
+          6.72K 100%   33.67kB/s    0:00:00            6.72K 100%   33.67kB/s    0:00:00 (xfr#319, to-chk=143/524)
+fw_core/Eigen/src/Geometry/Transform.h
+         32.77K  52%  163.27kB/s    0:00:00           61.93K 100%  307.00kB/s    0:00:00 (xfr#320, to-chk=142/524)
+fw_core/Eigen/src/Geometry/Translation.h
+          7.66K 100%   37.99kB/s    0:00:00            7.66K 100%   37.99kB/s    0:00:00 (xfr#321, to-chk=141/524)
+fw_core/Eigen/src/Geometry/Umeyama.h
+          6.19K 100%   30.68kB/s    0:00:00            6.19K 100%   30.68kB/s    0:00:00 (xfr#322, to-chk=140/524)
+fw_core/Eigen/src/Geometry/arch/
+fw_core/Eigen/src/Geometry/arch/Geometry_SIMD.h
+          5.68K 100%   28.14kB/s    0:00:00            5.68K 100%   28.14kB/s    0:00:00 (xfr#323, to-chk=138/524)
+fw_core/Eigen/src/Householder/
+fw_core/Eigen/src/Householder/BlockHouseholder.h
+          4.78K 100%   23.60kB/s    0:00:00            4.78K 100%   23.60kB/s    0:00:00 (xfr#324, to-chk=137/524)
+fw_core/Eigen/src/Householder/Householder.h
+          5.37K 100%   26.46kB/s    0:00:00            5.37K 100%   26.46kB/s    0:00:00 (xfr#325, to-chk=136/524)
+fw_core/Eigen/src/Householder/HouseholderSequence.h
+         23.61K 100%  116.45kB/s    0:00:00           23.61K 100%  116.45kB/s    0:00:00 (xfr#326, to-chk=135/524)
+fw_core/Eigen/src/IterativeLinearSolvers/
+fw_core/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+          6.77K 100%   33.40kB/s    0:00:00            6.77K 100%   33.40kB/s    0:00:00 (xfr#327, to-chk=134/524)
+fw_core/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+          6.85K 100%   33.62kB/s    0:00:00            6.85K 100%   33.62kB/s    0:00:00 (xfr#328, to-chk=133/524)
+fw_core/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+          8.89K 100%   43.61kB/s    0:00:00            8.89K 100%   43.61kB/s    0:00:00 (xfr#329, to-chk=132/524)
+fw_core/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+         15.04K 100%   73.79kB/s    0:00:00           15.04K 100%   73.79kB/s    0:00:00 (xfr#330, to-chk=131/524)
+fw_core/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+         14.94K 100%   72.95kB/s    0:00:00           14.94K 100%   72.95kB/s    0:00:00 (xfr#331, to-chk=130/524)
+fw_core/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+         13.38K 100%   65.33kB/s    0:00:00           13.38K 100%   65.33kB/s    0:00:00 (xfr#332, to-chk=129/524)
+fw_core/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+          7.35K 100%   35.88kB/s    0:00:00            7.35K 100%   35.88kB/s    0:00:00 (xfr#333, to-chk=128/524)
+fw_core/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+          4.21K 100%   20.57kB/s    0:00:00            4.21K 100%   20.57kB/s    0:00:00 (xfr#334, to-chk=127/524)
+fw_core/Eigen/src/Jacobi/
+fw_core/Eigen/src/Jacobi/Jacobi.h
+         16.38K 100%   79.60kB/s    0:00:00           16.38K 100%   79.60kB/s    0:00:00 (xfr#335, to-chk=126/524)
+fw_core/Eigen/src/KLUSupport/
+fw_core/Eigen/src/KLUSupport/KLUSupport.h
+         11.55K 100%   56.14kB/s    0:00:00           11.55K 100%   56.14kB/s    0:00:00 (xfr#336, to-chk=125/524)
+fw_core/Eigen/src/LU/
+fw_core/Eigen/src/LU/Determinant.h
+          3.44K 100%   16.71kB/s    0:00:00            3.44K 100%   16.71kB/s    0:00:00 (xfr#337, to-chk=124/524)
+fw_core/Eigen/src/LU/FullPivLU.h
+         32.38K 100%  156.55kB/s    0:00:00           32.38K 100%  156.55kB/s    0:00:00 (xfr#338, to-chk=123/524)
+fw_core/Eigen/src/LU/InverseImpl.h
+         15.10K 100%   73.01kB/s    0:00:00           15.10K 100%   73.01kB/s    0:00:00 (xfr#339, to-chk=122/524)
+fw_core/Eigen/src/LU/PartialPivLU.h
+         21.92K 100%  105.44kB/s    0:00:00           21.92K 100%  105.44kB/s    0:00:00 (xfr#340, to-chk=121/524)
+fw_core/Eigen/src/LU/PartialPivLU_LAPACKE.h
+          3.56K 100%   17.10kB/s    0:00:00            3.56K 100%   17.10kB/s    0:00:00 (xfr#341, to-chk=120/524)
+fw_core/Eigen/src/LU/arch/
+fw_core/Eigen/src/LU/arch/InverseSize4.h
+         13.24K 100%   63.37kB/s    0:00:00           13.24K 100%   63.37kB/s    0:00:00 (xfr#342, to-chk=118/524)
+fw_core/Eigen/src/MetisSupport/
+fw_core/Eigen/src/MetisSupport/MetisSupport.h
+          4.59K 100%   21.96kB/s    0:00:00            4.59K 100%   21.96kB/s    0:00:00 (xfr#343, to-chk=117/524)
+fw_core/Eigen/src/OrderingMethods/
+fw_core/Eigen/src/OrderingMethods/Amd.h
+         16.11K 100%   77.10kB/s    0:00:00           16.11K 100%   77.10kB/s    0:00:00 (xfr#344, to-chk=116/524)
+fw_core/Eigen/src/OrderingMethods/Eigen_Colamd.h
+         32.77K  53%  156.10kB/s    0:00:00           61.68K 100%  292.40kB/s    0:00:00 (xfr#345, to-chk=115/524)
+fw_core/Eigen/src/OrderingMethods/Ordering.h
+          5.25K 100%   24.76kB/s    0:00:00            5.25K 100%   24.76kB/s    0:00:00 (xfr#346, to-chk=114/524)
+fw_core/Eigen/src/PaStiXSupport/
+fw_core/Eigen/src/PaStiXSupport/PaStiXSupport.h
+         22.25K 100%  104.96kB/s    0:00:00           22.25K 100%  104.96kB/s    0:00:00 (xfr#347, to-chk=113/524)
+fw_core/Eigen/src/PardisoSupport/
+fw_core/Eigen/src/PardisoSupport/PardisoSupport.h
+         20.09K 100%   94.33kB/s    0:00:00           20.09K 100%   94.33kB/s    0:00:00 (xfr#348, to-chk=112/524)
+fw_core/Eigen/src/QR/
+fw_core/Eigen/src/QR/ColPivHouseholderQR.h
+         25.50K 100%  119.71kB/s    0:00:00           25.50K 100%  119.71kB/s    0:00:00 (xfr#349, to-chk=111/524)
+fw_core/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+          4.66K 100%   21.89kB/s    0:00:00            4.66K 100%   21.89kB/s    0:00:00 (xfr#350, to-chk=110/524)
+fw_core/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+         23.43K 100%  109.47kB/s    0:00:00           23.43K 100%  109.47kB/s    0:00:00 (xfr#351, to-chk=109/524)
+fw_core/Eigen/src/QR/FullPivHouseholderQR.h
+         26.77K 100%  124.48kB/s    0:00:00           26.77K 100%  124.48kB/s    0:00:00 (xfr#352, to-chk=108/524)
+fw_core/Eigen/src/QR/HouseholderQR.h
+         14.64K 100%   68.09kB/s    0:00:00           14.64K 100%   68.09kB/s    0:00:00 (xfr#353, to-chk=107/524)
+fw_core/Eigen/src/QR/HouseholderQR_LAPACKE.h
+          2.99K 100%   13.92kB/s    0:00:00            2.99K 100%   13.92kB/s    0:00:00 (xfr#354, to-chk=106/524)
+fw_core/Eigen/src/SPQRSupport/
+fw_core/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+         11.83K 100%   54.99kB/s    0:00:00           11.83K 100%   54.99kB/s    0:00:00 (xfr#355, to-chk=105/524)
+fw_core/Eigen/src/SVD/
+fw_core/Eigen/src/SVD/BDCSVD.h
+         32.77K  60%  151.66kB/s    0:00:00           54.21K 100%  249.73kB/s    0:00:00 (xfr#356, to-chk=104/524)
+fw_core/Eigen/src/SVD/JacobiSVD.h
+         32.77K  98%  150.23kB/s    0:00:00           33.17K 100%  152.09kB/s    0:00:00 (xfr#357, to-chk=103/524)
+fw_core/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+          5.10K 100%   23.38kB/s    0:00:00            5.10K 100%   23.38kB/s    0:00:00 (xfr#358, to-chk=102/524)
+fw_core/Eigen/src/SVD/SVDBase.h
+         14.74K 100%   67.28kB/s    0:00:00           14.74K 100%   67.28kB/s    0:00:00 (xfr#359, to-chk=101/524)
+fw_core/Eigen/src/SVD/UpperBidiagonalization.h
+         15.96K 100%   72.82kB/s    0:00:00           15.96K 100%   72.82kB/s    0:00:00 (xfr#360, to-chk=100/524)
+fw_core/Eigen/src/SparseCholesky/
+fw_core/Eigen/src/SparseCholesky/SimplicialCholesky.h
+         24.20K 100%  110.43kB/s    0:00:00           24.20K 100%  110.43kB/s    0:00:00 (xfr#361, to-chk=99/524)
+fw_core/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+          5.83K 100%   26.48kB/s    0:00:00            5.83K 100%   26.48kB/s    0:00:00 (xfr#362, to-chk=98/524)
+fw_core/Eigen/src/SparseCore/
+fw_core/Eigen/src/SparseCore/AmbiVector.h
+         10.67K 100%   48.46kB/s    0:00:00           10.67K 100%   48.46kB/s    0:00:00 (xfr#363, to-chk=97/524)
+fw_core/Eigen/src/SparseCore/CompressedStorage.h
+          8.74K 100%   39.71kB/s    0:00:00            8.74K 100%   39.71kB/s    0:00:00 (xfr#364, to-chk=96/524)
+fw_core/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+         13.17K 100%   59.80kB/s    0:00:00           13.17K 100%   59.80kB/s    0:00:00 (xfr#365, to-chk=95/524)
+fw_core/Eigen/src/SparseCore/MappedSparseMatrix.h
+          2.19K 100%    9.95kB/s    0:00:00            2.19K 100%    9.95kB/s    0:00:00 (xfr#366, to-chk=94/524)
+fw_core/Eigen/src/SparseCore/SparseAssign.h
+         11.37K 100%   51.40kB/s    0:00:00           11.37K 100%   51.40kB/s    0:00:00 (xfr#367, to-chk=93/524)
+fw_core/Eigen/src/SparseCore/SparseBlock.h
+         24.36K 100%  110.13kB/s    0:00:00           24.36K 100%  110.13kB/s    0:00:00 (xfr#368, to-chk=92/524)
+fw_core/Eigen/src/SparseCore/SparseColEtree.h
+          6.49K 100%   29.32kB/s    0:00:00            6.49K 100%   29.32kB/s    0:00:00 (xfr#369, to-chk=91/524)
+fw_core/Eigen/src/SparseCore/SparseCompressedBase.h
+         13.61K 100%   61.23kB/s    0:00:00           13.61K 100%   61.23kB/s    0:00:00 (xfr#370, to-chk=90/524)
+fw_core/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+         25.43K 100%  114.46kB/s    0:00:00           25.43K 100%  114.46kB/s    0:00:00 (xfr#371, to-chk=89/524)
+fw_core/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+          4.74K 100%   21.32kB/s    0:00:00            4.74K 100%   21.32kB/s    0:00:00 (xfr#372, to-chk=88/524)
+fw_core/Eigen/src/SparseCore/SparseDenseProduct.h
+         13.26K 100%   59.38kB/s    0:00:00           13.26K 100%   59.38kB/s    0:00:00 (xfr#373, to-chk=87/524)
+fw_core/Eigen/src/SparseCore/SparseDiagonalProduct.h
+          5.81K 100%   26.02kB/s    0:00:00            5.81K 100%   26.02kB/s    0:00:00 (xfr#374, to-chk=86/524)
+fw_core/Eigen/src/SparseCore/SparseDot.h
+          3.08K 100%   13.80kB/s    0:00:00            3.08K 100%   13.80kB/s    0:00:00 (xfr#375, to-chk=85/524)
+fw_core/Eigen/src/SparseCore/SparseFuzzy.h
+          1.11K 100%    4.96kB/s    0:00:00            1.11K 100%    4.96kB/s    0:00:00 (xfr#376, to-chk=84/524)
+fw_core/Eigen/src/SparseCore/SparseMap.h
+         12.59K 100%   56.39kB/s    0:00:00           12.59K 100%   56.39kB/s    0:00:00 (xfr#377, to-chk=83/524)
+fw_core/Eigen/src/SparseCore/SparseMatrix.h
+         32.77K  57%  146.12kB/s    0:00:00           57.48K 100%  255.13kB/s    0:00:00 (xfr#378, to-chk=82/524)
+fw_core/Eigen/src/SparseCore/SparseMatrixBase.h
+         17.45K 100%   77.46kB/s    0:00:00           17.45K 100%   77.46kB/s    0:00:00 (xfr#379, to-chk=81/524)
+fw_core/Eigen/src/SparseCore/SparsePermutation.h
+          7.33K 100%   32.53kB/s    0:00:00            7.33K 100%   32.53kB/s    0:00:00 (xfr#380, to-chk=80/524)
+fw_core/Eigen/src/SparseCore/SparseProduct.h
+          7.59K 100%   33.55kB/s    0:00:00            7.59K 100%   33.55kB/s    0:00:00 (xfr#381, to-chk=79/524)
+fw_core/Eigen/src/SparseCore/SparseRedux.h
+          1.70K 100%    7.51kB/s    0:00:00            1.70K 100%    7.51kB/s    0:00:00 (xfr#382, to-chk=78/524)
+fw_core/Eigen/src/SparseCore/SparseRef.h
+         15.60K 100%   68.93kB/s    0:00:00           15.60K 100%   68.93kB/s    0:00:00 (xfr#383, to-chk=77/524)
+fw_core/Eigen/src/SparseCore/SparseSelfAdjointView.h
+         25.89K 100%  113.88kB/s    0:00:00           25.89K 100%  113.88kB/s    0:00:00 (xfr#384, to-chk=76/524)
+fw_core/Eigen/src/SparseCore/SparseSolverBase.h
+          4.42K 100%   19.46kB/s    0:00:00            4.42K 100%   19.46kB/s    0:00:00 (xfr#385, to-chk=75/524)
+fw_core/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+          8.70K 100%   38.29kB/s    0:00:00            8.70K 100%   38.29kB/s    0:00:00 (xfr#386, to-chk=74/524)
+fw_core/Eigen/src/SparseCore/SparseTranspose.h
+          3.17K 100%   13.97kB/s    0:00:00            3.17K 100%   13.97kB/s    0:00:00 (xfr#387, to-chk=73/524)
+fw_core/Eigen/src/SparseCore/SparseTriangularView.h
+          6.44K 100%   28.32kB/s    0:00:00            6.44K 100%   28.32kB/s    0:00:00 (xfr#388, to-chk=72/524)
+fw_core/Eigen/src/SparseCore/SparseUtil.h
+          6.83K 100%   30.03kB/s    0:00:00            6.83K 100%   30.03kB/s    0:00:00 (xfr#389, to-chk=71/524)
+fw_core/Eigen/src/SparseCore/SparseVector.h
+         14.83K 100%   64.95kB/s    0:00:00           14.83K 100%   64.95kB/s    0:00:00 (xfr#390, to-chk=70/524)
+fw_core/Eigen/src/SparseCore/SparseView.h
+          8.13K 100%   35.59kB/s    0:00:00            8.13K 100%   35.59kB/s    0:00:00 (xfr#391, to-chk=69/524)
+fw_core/Eigen/src/SparseCore/TriangularSolver.h
+          9.66K 100%   42.29kB/s    0:00:00            9.66K 100%   42.29kB/s    0:00:00 (xfr#392, to-chk=68/524)
+fw_core/Eigen/src/SparseLU/
+fw_core/Eigen/src/SparseLU/SparseLU.h
+         32.77K  98%  142.86kB/s    0:00:00           33.32K 100%  145.25kB/s    0:00:00 (xfr#393, to-chk=67/524)
+fw_core/Eigen/src/SparseLU/SparseLUImpl.h
+          4.30K 100%   18.76kB/s    0:00:00            4.30K 100%   18.76kB/s    0:00:00 (xfr#394, to-chk=66/524)
+fw_core/Eigen/src/SparseLU/SparseLU_Memory.h
+          7.60K 100%   33.14kB/s    0:00:00            7.60K 100%   33.14kB/s    0:00:00 (xfr#395, to-chk=65/524)
+fw_core/Eigen/src/SparseLU/SparseLU_Structs.h
+          4.97K 100%   21.59kB/s    0:00:00            4.97K 100%   21.59kB/s    0:00:00 (xfr#396, to-chk=64/524)
+fw_core/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+         12.84K 100%   55.72kB/s    0:00:00           12.84K 100%   55.72kB/s    0:00:00 (xfr#397, to-chk=63/524)
+fw_core/Eigen/src/SparseLU/SparseLU_Utils.h
+          2.05K 100%    8.89kB/s    0:00:00            2.05K 100%    8.89kB/s    0:00:00 (xfr#398, to-chk=62/524)
+fw_core/Eigen/src/SparseLU/SparseLU_column_bmod.h
+          6.71K 100%   29.13kB/s    0:00:00            6.71K 100%   29.13kB/s    0:00:00 (xfr#399, to-chk=61/524)
+fw_core/Eigen/src/SparseLU/SparseLU_column_dfs.h
+          6.58K 100%   28.45kB/s    0:00:00            6.58K 100%   28.45kB/s    0:00:00 (xfr#400, to-chk=60/524)
+fw_core/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+          3.68K 100%   15.91kB/s    0:00:00            3.68K 100%   15.91kB/s    0:00:00 (xfr#401, to-chk=59/524)
+fw_core/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+         10.22K 100%   44.15kB/s    0:00:00           10.22K 100%   44.15kB/s    0:00:00 (xfr#402, to-chk=58/524)
+fw_core/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+          4.18K 100%   18.07kB/s    0:00:00            4.18K 100%   18.07kB/s    0:00:00 (xfr#403, to-chk=57/524)
+fw_core/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+          5.72K 100%   24.73kB/s    0:00:00            5.72K 100%   24.73kB/s    0:00:00 (xfr#404, to-chk=56/524)
+fw_core/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+          8.48K 100%   36.66kB/s    0:00:00            8.48K 100%   36.66kB/s    0:00:00 (xfr#405, to-chk=55/524)
+fw_core/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+          9.03K 100%   38.84kB/s    0:00:00            9.03K 100%   38.84kB/s    0:00:00 (xfr#406, to-chk=54/524)
+fw_core/Eigen/src/SparseLU/SparseLU_pivotL.h
+          4.98K 100%   21.42kB/s    0:00:00            4.98K 100%   21.42kB/s    0:00:00 (xfr#407, to-chk=53/524)
+fw_core/Eigen/src/SparseLU/SparseLU_pruneL.h
+          4.54K 100%   19.55kB/s    0:00:00            4.54K 100%   19.55kB/s    0:00:00 (xfr#408, to-chk=52/524)
+fw_core/Eigen/src/SparseLU/SparseLU_relax_snode.h
+          2.89K 100%   12.43kB/s    0:00:00            2.89K 100%   12.43kB/s    0:00:00 (xfr#409, to-chk=51/524)
+fw_core/Eigen/src/SparseQR/
+fw_core/Eigen/src/SparseQR/SparseQR.h
+         29.17K 100%  124.93kB/s    0:00:00           29.17K 100%  124.93kB/s    0:00:00 (xfr#410, to-chk=50/524)
+fw_core/Eigen/src/StlSupport/
+fw_core/Eigen/src/StlSupport/StdDeque.h
+          4.73K 100%   20.26kB/s    0:00:00            4.73K 100%   20.26kB/s    0:00:00 (xfr#411, to-chk=49/524)
+fw_core/Eigen/src/StlSupport/StdList.h
+          4.16K 100%   17.80kB/s    0:00:00            4.16K 100%   17.80kB/s    0:00:00 (xfr#412, to-chk=48/524)
+fw_core/Eigen/src/StlSupport/StdVector.h
+          5.34K 100%   22.86kB/s    0:00:00            5.34K 100%   22.86kB/s    0:00:00 (xfr#413, to-chk=47/524)
+fw_core/Eigen/src/StlSupport/details.h
+          2.81K 100%   12.03kB/s    0:00:00            2.81K 100%   12.03kB/s    0:00:00 (xfr#414, to-chk=46/524)
+fw_core/Eigen/src/SuperLUSupport/
+fw_core/Eigen/src/SuperLUSupport/SuperLUSupport.h
+         32.77K  95%  139.74kB/s    0:00:00           34.32K 100%  146.37kB/s    0:00:00 (xfr#415, to-chk=45/524)
+fw_core/Eigen/src/UmfPackSupport/
+fw_core/Eigen/src/UmfPackSupport/UmfPackSupport.h
+         24.46K 100%  103.84kB/s    0:00:00           24.46K 100%  103.84kB/s    0:00:00 (xfr#416, to-chk=44/524)
+fw_core/Eigen/src/misc/
+fw_core/Eigen/src/misc/Image.h
+          2.91K 100%   12.37kB/s    0:00:00            2.91K 100%   12.37kB/s    0:00:00 (xfr#417, to-chk=43/524)
+fw_core/Eigen/src/misc/Kernel.h
+          2.74K 100%   11.64kB/s    0:00:00            2.74K 100%   11.64kB/s    0:00:00 (xfr#418, to-chk=42/524)
+fw_core/Eigen/src/misc/RealSvd2x2.h
+          1.75K 100%    7.42kB/s    0:00:00            1.75K 100%    7.42kB/s    0:00:00 (xfr#419, to-chk=41/524)
+fw_core/Eigen/src/misc/blas.h
+         30.56K 100%  129.76kB/s    0:00:00           30.56K 100%  129.76kB/s    0:00:00 (xfr#420, to-chk=40/524)
+fw_core/Eigen/src/misc/lapack.h
+          7.83K 100%   33.12kB/s    0:00:00            7.83K 100%   33.12kB/s    0:00:00 (xfr#421, to-chk=39/524)
+fw_core/Eigen/src/misc/lapacke.h
+         32.77K   3%  138.53kB/s    0:00:07            1.06M 100%    4.10MB/s    0:00:00 (xfr#422, to-chk=38/524)
+fw_core/Eigen/src/misc/lapacke_mangling.h
+            474 100%    1.88kB/s    0:00:00              474 100%    1.88kB/s    0:00:00 (xfr#423, to-chk=37/524)
+fw_core/Eigen/src/plugins/
+fw_core/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+         14.06K 100%   55.59kB/s    0:00:00           14.06K 100%   55.59kB/s    0:00:00 (xfr#424, to-chk=36/524)
+fw_core/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+         20.43K 100%   80.76kB/s    0:00:00           20.43K 100%   80.76kB/s    0:00:00 (xfr#425, to-chk=35/524)
+fw_core/Eigen/src/plugins/BlockMethods.h
+         32.77K  55%  129.55kB/s    0:00:00           59.02K 100%  232.41kB/s    0:00:00 (xfr#426, to-chk=34/524)
+fw_core/Eigen/src/plugins/CommonCwiseBinaryOps.h
+          4.83K 100%   19.01kB/s    0:00:00            4.83K 100%   19.01kB/s    0:00:00 (xfr#427, to-chk=33/524)
+fw_core/Eigen/src/plugins/CommonCwiseUnaryOps.h
+          7.21K 100%   28.40kB/s    0:00:00            7.21K 100%   28.40kB/s    0:00:00 (xfr#428, to-chk=32/524)
+fw_core/Eigen/src/plugins/IndexedViewMethods.h
+         12.28K 100%   48.37kB/s    0:00:00           12.28K 100%   48.37kB/s    0:00:00 (xfr#429, to-chk=31/524)
+fw_core/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+          6.38K 100%   25.10kB/s    0:00:00            6.38K 100%   25.10kB/s    0:00:00 (xfr#430, to-chk=30/524)
+fw_core/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+          3.35K 100%   13.19kB/s    0:00:00            3.35K 100%   13.19kB/s    0:00:00 (xfr#431, to-chk=29/524)
+fw_core/Eigen/src/plugins/ReshapedMethods.h
+          6.92K 100%   27.12kB/s    0:00:00            6.92K 100%   27.12kB/s    0:00:00 (xfr#432, to-chk=28/524)
+scripts/
+synthetic_exp/
+synthetic_exp/expSetup.m
+          3.95K 100%   15.51kB/s    0:00:00            3.95K 100%   15.51kB/s    0:00:00 (xfr#433, to-chk=27/524)
+synthetic_exp/expSetup__script.m
+          1.26K 100%    4.96kB/s    0:00:00            1.26K 100%    4.96kB/s    0:00:00 (xfr#434, to-chk=26/524)
+synthetic_exp/generate_date__examine.m
+            295 100%    1.16kB/s    0:00:00              295 100%    1.16kB/s    0:00:00 (xfr#435, to-chk=25/524)
+synthetic_exp/generate_date__test.m
+            269 100%    1.06kB/s    0:00:00              269 100%    1.06kB/s    0:00:00 (xfr#436, to-chk=24/524)
+synthetic_exp/loadResult.m
+            140 100%    0.55kB/s    0:00:00              140 100%    0.55kB/s    0:00:00 (xfr#437, to-chk=23/524)
+synthetic_exp/selectByFW.m
+          1.04K 100%    4.07kB/s    0:00:00            1.04K 100%    4.07kB/s    0:00:00 (xfr#438, to-chk=22/524)
+synthetic_exp/selectByFastGradient.m
+            700 100%    2.75kB/s    0:00:00              700 100%    2.75kB/s    0:00:00 (xfr#439, to-chk=21/524)
+synthetic_exp/selectByGreedyPuisuit.m
+            650 100%    2.55kB/s    0:00:00              650 100%    2.55kB/s    0:00:00 (xfr#440, to-chk=20/524)
+synthetic_exp/1/
+synthetic_exp/1/gillis_setting_SNR.m
+          4.89K 100%   19.17kB/s    0:00:00            4.89K 100%   19.17kB/s    0:00:00 (xfr#441, to-chk=15/524)
+synthetic_exp/2/
+synthetic_exp/2/success_rate.m
+          4.35K 100%   17.06kB/s    0:00:00            4.35K 100%   17.06kB/s    0:00:00 (xfr#442, to-chk=14/524)
+synthetic_exp/3/
+synthetic_exp/3/logging_1000.txt
+             62 100%    0.24kB/s    0:00:00               62 100%    0.24kB/s    0:00:00 (xfr#443, to-chk=13/524)
+synthetic_exp/3/logging_200.txt
+             62 100%    0.24kB/s    0:00:00               62 100%    0.24kB/s    0:00:00 (xfr#444, to-chk=12/524)
+synthetic_exp/3/run_FastGradient.m
+              0 100%    0.00kB/s    0:00:00 (xfr#445, to-chk=11/524)
+synthetic_exp/3/run_MERIT.m
+          1.63K 100%    6.40kB/s    0:00:00            1.63K 100%    6.40kB/s    0:00:00 (xfr#446, to-chk=10/524)
+synthetic_exp/3/run_it.sh
+            258 100%    1.01kB/s    0:00:00              258 100%    1.01kB/s    0:00:00 (xfr#447, to-chk=9/524)
+synthetic_exp/scripts/
+synthetic_exp/scripts/read_result.sh
+             96 100%    0.38kB/s    0:00:00               96 100%    0.38kB/s    0:00:00 (xfr#448, to-chk=8/524)
+synthetic_exp/scripts/run_it.sh
+            742 100%    2.91kB/s    0:00:00              742 100%    2.91kB/s    0:00:00 (xfr#449, to-chk=7/524)
+utils/
+utils/compute_MRSA.m
+            553 100%    2.17kB/s    0:00:00              553 100%    2.17kB/s    0:00:00 (xfr#450, to-chk=6/524)
+utils/constrained_ls.m
+          1.01K 100%    3.93kB/s    0:00:00            1.01K 100%    3.93kB/s    0:00:00 (xfr#451, to-chk=5/524)
+utils/constrained_ls__test.m
+            207 100%    0.81kB/s    0:00:00              207 100%    0.81kB/s    0:00:00 (xfr#452, to-chk=4/524)
+utils/dirichlet_rnd.m
+            156 100%    0.61kB/s    0:00:00              156 100%    0.61kB/s    0:00:00 (xfr#453, to-chk=3/524)
+utils/pgd_fista.m
+          2.58K 100%   10.09kB/s    0:00:00            2.58K 100%   10.09kB/s    0:00:00 (xfr#454, to-chk=2/524)
+utils/proj_simplex.m
+            598 100%    2.34kB/s    0:00:00              598 100%    2.34kB/s    0:00:00 (xfr#455, to-chk=1/524)
+utils/proj_simplex_matrix.m
+            200 100%    0.78kB/s    0:00:00              200 100%    0.78kB/s    0:00:00 (xfr#456, to-chk=0/524)
+
+sent 1.31M bytes  received 9.11K bytes  292.26K bytes/sec
+total size is 6.44M  speedup is 4.89
+
+
+====== Sun May 22 01:28:54 PM PDT 2022 =======
+SYNC UP to kruskal.eecs.oregonstate.edu
+sending incremental file list
+./
+deleting synthetic_exp/scripts/run_it.sh
+deleting synthetic_exp/scripts/read_result.sh
+deleting synthetic_exp/scripts/
+deleting synthetic_exp/selectByGreedyPuisuit.m
+deleting synthetic_exp/selectByFastGradient.m
+deleting synthetic_exp/selectByFW.m
+deleting synthetic_exp/loadResult.m
+deleting synthetic_exp/generate_date__test.m
+deleting synthetic_exp/generate_date__examine.m
+deleting synthetic_exp/expSetup__script.m
+deleting synthetic_exp/expSetup.m
+synthetic_exp/
+synthetic_exp/3/
+synthetic_exp/3/logging_1000.txt
+             62 100%    0.00kB/s    0:00:00               62 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=11/513)
+synthetic_exp/3/logging_200.txt
+             62 100%   60.55kB/s    0:00:00               62 100%   60.55kB/s    0:00:00 (xfr#2, to-chk=10/513)
+synthetic_exp/3/run_it.sh
+            257 100%  250.98kB/s    0:00:00              257 100%  250.98kB/s    0:00:00 (xfr#3, to-chk=7/513)
+
+sent 14.28K bytes  received 571 bytes  5.94K bytes/sec
+total size is 6.43M  speedup is 432.93
+
+
+====== Sun May 22 01:34:29 PM PDT 2022 =======
+SYNC UP to kruskal.eecs.oregonstate.edu
+sending incremental file list
+synthetic_exp/3/
+synthetic_exp/3/logging_1000.txt
+             62 100%    0.00kB/s    0:00:00               62 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=12/514)
+synthetic_exp/3/logging_200.txt
+             62 100%   60.55kB/s    0:00:00               62 100%   60.55kB/s    0:00:00 (xfr#2, to-chk=11/514)
+synthetic_exp/3/readme.md
+            394 100%  384.77kB/s    0:00:00              394 100%  384.77kB/s    0:00:00 (xfr#3, to-chk=10/514)
+synthetic_exp/3/run_it.sh
+            261 100%  254.88kB/s    0:00:00              261 100%  254.88kB/s    0:00:00 (xfr#4, to-chk=7/514)
+
+sent 14.61K bytes  received 193 bytes  5.92K bytes/sec
+total size is 6.43M  speedup is 434.30
+
+
+====== Sun May 22 01:34:44 PM PDT 2022 =======
+SYNC UP to kruskal.eecs.oregonstate.edu
+sending incremental file list
+synthetic_exp/3/
+
+sent 13.79K bytes  received 83 bytes  5.55K bytes/sec
+total size is 6.43M  speedup is 463.51
+
+
+====== Sun May 22 01:35:23 PM PDT 2022 =======
+SYNC UP to kruskal.eecs.oregonstate.edu
+sending incremental file list
+deleting synthetic_exp/3/logging_$methodName_$N.txt
+synthetic_exp/3/
+synthetic_exp/3/run_it.sh
+            261 100%    0.00kB/s    0:00:00              261 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=7/512)
+
+sent 14.03K bytes  received 158 bytes  5.67K bytes/sec
+total size is 6.43M  speedup is 453.25
+
+
+====== Sun May 22 01:36:51 PM PDT 2022 =======
+SYNC UP to kruskal.eecs.oregonstate.edu
+sending incremental file list
+deleting synthetic_exp/3/run_MERIT.m
+deleting synthetic_exp/3/run_FastGradient.m
+deleting synthetic_exp/3/logging_MERIT_200.txt
+deleting synthetic_exp/3/logging_MERIT_1000.txt
+synthetic_exp/3/
+synthetic_exp/3/run_it.m
+          1.63K 100%    0.00kB/s    0:00:00            1.63K 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=8/511)
+synthetic_exp/3/run_it.sh
+            250 100%  244.14kB/s    0:00:00              250 100%  244.14kB/s    0:00:00 (xfr#2, to-chk=7/511)
+
+sent 14.78K bytes  received 283 bytes  6.03K bytes/sec
+total size is 6.43M  speedup is 426.65
+
+
+====== Sun May 22 01:38:06 PM PDT 2022 =======
+SYNC UP to kruskal.eecs.oregonstate.edu
+sending incremental file list
+deleting synthetic_exp/3/logging_MERIT_200.txt
+deleting synthetic_exp/3/logging_MERIT_1000.txt
+synthetic_exp/3/
+synthetic_exp/3/readme.md
+            412 100%    0.00kB/s    0:00:00              412 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=9/511)
+synthetic_exp/3/run_it.m
+          1.41K  85%    1.34MB/s    0:00:00            1.64K 100%    1.56MB/s    0:00:00 (xfr#2, to-chk=8/511)
+
+sent 14.50K bytes  received 232 bytes  4.21K bytes/sec
+total size is 6.43M  speedup is 436.24
+
+
+====== Sun May 22 01:38:24 PM PDT 2022 =======
+SYNC UP to kruskal.eecs.oregonstate.edu
+sending incremental file list
+synthetic_exp/3/
+synthetic_exp/3/run_it.m
+            700  41%    0.00kB/s    0:00:00            1.68K 100%  953.12kB/s    0:00:00 (xfr#1, to-chk=8/511)
+
+sent 14.23K bytes  received 124 bytes  5.74K bytes/sec
+total size is 6.43M  speedup is 447.85
+
